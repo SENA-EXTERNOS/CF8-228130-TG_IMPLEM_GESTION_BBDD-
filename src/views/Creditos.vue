@@ -4,8 +4,8 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       
       .row.mb-4.justify-content-center.align-items-center
-        .col-md-6.mb-4.mb-md-0
-          .tarjeta.credito.p-3.text-center.h-100
+        .col-md-10.mb-4.mb-md-0
+          .tarjeta.p-3.text-center.h-100
             h2 Elaborado por:
             img.mx-auto.d-inline-block.mb-3(src='@/assets/template/logo_IE.png' style='width:80%;max-width:613px')
 
