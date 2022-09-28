@@ -64,16 +64,18 @@
         .h5.mb-2 LINUX
         p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos Unix y es por eso que Linux tiene mayores capacidades para navegar.
       
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-8  
         .cajon.color-acento-contenido.p-4.mb-4
           p Puede decirse que tanto Unix, como Linux son sistemas operativos idénticos (Cura, 2020).
 
-    .titulo-segundo.color-acento-contenido
+    Separador
+
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Licenciamientos
 
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-10(data-aos="flip-left")
 
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/img1-4.svg', alt="")

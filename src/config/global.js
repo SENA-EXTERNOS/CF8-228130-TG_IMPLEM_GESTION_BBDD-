@@ -117,7 +117,7 @@ export default {
   complementario: [
     {
       tema: 'Sistemas Operativos',
-      referencia: 'Silva M. (2015). Sistemas Operativos.',
+      referencia: 'Silva M. (2015). <em>Sistemas Operativos</em>.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_alfaomega18624',
@@ -125,7 +125,7 @@ export default {
     {
       tema: 'Redes de Computadoras',
       referencia:
-        'Tanenbaum, A. S., Romero Elizondo, A. V. & Wetherall, D. J. (2012). Redes de Computadoras.',
+        'Tanenbaum, A. S., Romero Elizondo, A. V. & Wetherall, D. J. (2012). <em>Redes de Computadoras</em>.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085',
@@ -187,45 +187,41 @@ export default {
       significado:
         'protocolo de control de transmisión, es uno de los protocolos fundamentales en internet.',
     },
-    {
-      termino: '<em></em>',
-      significado: '',
-    },
   ],
   referencias: [
     {
       referencia:
-        'Cura, N. (2020). Fundamentos de Sistemas Operativos. Universitas.',
+        'Cura, N. (2020). <em>Fundamentos de Sistemas Operativos</em>. Universitas.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB175153',
     },
     {
       referencia:
-        'Kurose, J. (2017). Redes De Computadoras: Un Enfoque Descendente. Séptima Edición. ed. Slovakia, Neografía: Pearson Educación.',
+        'Kurose, J. (2017). <em>Redes De Computadoras: Un Enfoque Descendente</em>. Séptima Edición. ed. Slovakia, Neografía: Pearson Educación.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005090',
     },
     {
       referencia:
-        'Lezcano, M. (2018). Fundamentos de Sistemas Operativos: Entornos De Trabajo = Fundamentals of Operating Systems: Work Environments. Fondo Editorial Universidad Cooperativa de Colombia.',
+        'Lezcano, M. (2018). <em>Fundamentos de Sistemas Operativos: Entornos De Trabajo = Fundamentals of Operating Systems: Work Environments</em>. Fondo Editorial Universidad Cooperativa de Colombia.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB85313',
     },
     {
       referencia:
-        'Sánchez, M, Barchino R; & Martínez, J. (2020) Redes de Computadores. Universidad de Alcalá, Servicio de Publicaciones.',
+        'Sánchez, M, Barchino R; & Martínez, J. (2020) <em>Redes de Computadores</em>. Universidad de Alcalá, Servicio de Publicaciones.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB131606',
     },
     {
       referencia:
-        'Serna, M, y Allende, S. (2020). Sistemas Operativos: Linux. Jorge Sarmiento Editor – Universitas.',
+        'Serna, M, y Allende, S. (2020). <em>Sistemas Operativos: Linux</em>. Jorge Sarmiento Editor – Universitas.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB175148',
     },
     {
       referencia:
-        'Tanenbaum, A, Vidal, A, & Wetherall, D. (2022). Redes De Computadoras. 5a. Edición. Ed. México: Pearson Educación.',
+        'Tanenbaum, A, Vidal, A, & Wetherall, D. (2022). <em>Redes De Computadoras</em>. 5a. Edición. Ed. México: Pearson Educación.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085',
     },
