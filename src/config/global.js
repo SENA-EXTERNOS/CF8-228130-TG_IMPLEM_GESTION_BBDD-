@@ -1,13 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Conceptos básicos de sistemas operativos',
+    descripcionCurso:
+      'Es importante hoy en día conocer cómo se pueden generar escenarios de seguridad, acceso remoto, sitios web e integración de las organizaciones con los servicios de la nube; esto se logra habilitando servicios en un servidor que permita la creación y gestión de procesos que determinen tareas fundamentales como: envíos de correos, seguridad de la información, almacenamiento de <em>software</em> y demás componentes que hacen parte del sistema operativo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
@@ -32,14 +33,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción a los sistemas operativos de red',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Licenciamientos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Conceptos básicos de redes y <em>networking</em>',
+            hash: 't_1_2',
           },
         ],
       },
@@ -48,15 +55,23 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Instalación',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipos de instalaciones de sistemas operativos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo:
+              'Plan de instalación: dependencias, configuración y problemas de instalación',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,22 +116,76 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Sistemas Operativos',
+      referencia: 'Silva M. (2015). Sistemas Operativos.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_alfaomega18624',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Redes de Computadoras',
+      referencia:
+        'Tanenbaum, A. S., Romero Elizondo, A. V. & Wetherall, D. J. (2012). Redes de Computadoras.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'DHCP',
+      significado:
+        'el protocolo de configuración dinámica de host es un protocolo de red de tipo cliente/servidor, mediante el cual, un servidor DHCP asigna dinámicamente una dirección IP y otros parámetros de configuración de red a cada dispositivo, en una red para que puedan comunicarse con otras redes IP.',
+    },
+    {
+      termino: 'FTP',
+      significado:
+        'el protocolo de transferencia de archivos es un protocolo de red para la transferencia de archivos entre sistemas conectados a una red TCP, basado en la arquitectura cliente-servidor.',
+    },
+    {
+      termino: 'HTTP',
+      significado:
+        'el protocolo de transferencia de hipertexto, es el protocolo de comunicación que permite las transferencias de información a través de archivos en la <em>World Wide Web</em>.',
+    },
+    {
+      termino: 'IGP',
+      significado:
+        'el <em>Interior Gateway Protocol</em>, protocolo de pasarela interna o protocolo de pasarela interior, hace referencia a los usados dentro de un sistema autónomo.',
+    },
+    {
+      termino: 'IP',
+      significado:
+        'una dirección IP es una dirección única que identifica a un dispositivo en internet o en una red local. IP significa “protocolo de internet”, que es el conjunto de reglas que rigen el formato de los datos enviados a través de Internet o la red local.',
+    },
+    {
+      termino: 'ISNS',
+      significado:
+        'el protocolo propuesto del servicio de nombres de almacenamiento de internet permite el descubrimiento, la administración y la configuración automatizados de dispositivos <em>iSCSI</em> y <em>Fibre Channel</em> en una red TCP / IP.',
+    },
+    {
+      termino: 'NETBIOS',
+      significado:
+        'una especificación de interfaz para acceso a servicios de red, es decir, una capa de <em>software</em> desarrollado para enlazar un sistema operativo de red con <em>hardware</em> específico.',
+    },
+    {
+      termino: 'NFS',
+      significado:
+        '<em>Network File System</em>, o NFS, es un protocolo de nivel de aplicación, según el Modelo OSI. Es utilizado para sistemas de archivos distribuido en un entorno de red de computadoras de área local.',
+    },
+    {
+      termino: 'OSI',
+      significado:
+        'es un estándar que tiene por objetivo conseguir interconectar sistemas de procedencia distinta para que estos pudieran intercambiar información, sin ningún tipo de impedimentos debido a los protocolos con los que estos operaban de forma propia según su fabricante.',
+    },
+    {
+      termino: 'RIP',
+      significado:
+        'el Protocolo de Información de Encaminamiento, <em>Routing Information Protocol</em>, es un protocolo de puerta de enlace interna o interior utilizado por los <em>routers</em> o encaminadores para intercambiar información acerca de redes del <em>Internet Protocol</em> a las que se encuentran conectados.',
+    },
+    {
+      termino: 'TCP',
+      significado:
+        'protocolo de control de transmisión, es uno de los protocolos fundamentales en internet.',
     },
     {
       termino: '<em></em>',
@@ -125,8 +194,40 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Cura, N. (2020). Fundamentos de Sistemas Operativos. Universitas.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB175153',
+    },
+    {
+      referencia:
+        'Kurose, J. (2017). Redes De Computadoras: Un Enfoque Descendente. Séptima Edición. ed. Slovakia, Neografía: Pearson Educación.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005090',
+    },
+    {
+      referencia:
+        'Lezcano, M. (2018). Fundamentos de Sistemas Operativos: Entornos De Trabajo = Fundamentals of Operating Systems: Work Environments. Fondo Editorial Universidad Cooperativa de Colombia.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB85313',
+    },
+    {
+      referencia:
+        'Sánchez, M, Barchino R; & Martínez, J. (2020) Redes de Computadores. Universidad de Alcalá, Servicio de Publicaciones.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB131606',
+    },
+    {
+      referencia:
+        'Serna, M, y Allende, S. (2020). Sistemas Operativos: Linux. Jorge Sarmiento Editor – Universitas.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB175148',
+    },
+    {
+      referencia:
+        'Tanenbaum, A, Vidal, A, & Wetherall, D. (2022). Redes De Computadoras. 5a. Edición. Ed. México: Pearson Educación.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085',
     },
   ],
   creditos: {
