@@ -130,7 +130,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Conceptos básicos de redes y <em>networking</em>
 
     .row.justify-content-center.align-items-center
