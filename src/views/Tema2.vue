@@ -27,16 +27,16 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7
-        p Deben aceptarse los términos de licencia y luego se visualiza una ventana que muestra dos opciones:
+        p #[b Deben aceptarse los términos de licencia y luego se visualiza una ventana que muestra dos opciones:]
 
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
-              span.color-primario 1
+              span.cp 1
             | Actualización, opción que no se puede seleccionar porque actualizaría a una versión ya existente. 
           li 
             .lista-ol--cuadro__vineta
-              span 2
+              span.cp 2
             | La siguiente opción personalizada es la que se debe hacer para realizar nuevas instalaciones del sistema operativo, cuando se hace clic en personalizada, empezará el proceso de preparación del disco duro.
 
       .col.md-5
@@ -54,19 +54,19 @@
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
-              span 1
+              span.cp 1
             | Disco o discos duros para la instalación: en esta opción se seleccionan los discos que se tengan instalados en la máquina para su instalación.
           li 
             .lista-ol--cuadro__vineta
-              span 2
+              span.cp 2
             | Actualizar: se utiliza para actualizar el contenido de la ventana, en caso de haber un cambio reciente.
           li 
             .lista-ol--cuadro__vineta
-              span 3
+              span.cp 3
             | Cargar controlador: se utiliza cuando al hacer la instalación se detecta que el disco duro no es estándar y se requiere algún drive en específico para poder hacer la detección del disco duro.
           li
             .lista-ol--cuadro__vineta
-              span 4
+              span.cp 4
             | Opciones de unidad: al seleccionar esta opción se visualizan las herramientas para realizar la instalación, como lo son el particionamiento y el formato.
 
     .row.justify-content-center.align-items-center
@@ -80,19 +80,19 @@
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
-              span 1
+              span.cp 1
             | Hace referencia a eliminar particiones primarias o extendidas en el disco duro, la opción
           li 
             .lista-ol--cuadro__vineta
-              span 2
+              span.cp 2
             | Formatea las particiones al disco duro, la opción
           li 
             .lista-ol--cuadro__vineta
-              span 3
+              span.cp 3
             | Crea particiones primarias o extendidas, la opción
           li
             .lista-ol--cuadro__vineta
-              span 4
+              span.cp 4
             | Se utiliza para hacer redimensiones de particiones; esto es muy útil, ya que permite administrar la partición, sin perder información en esta.
 
     Separador
@@ -128,36 +128,40 @@
 
     p En este proceso se abarcan diferentes procedimientos como:
 
-    h3.titulo-tercero Creación de usuarios
+    h3
+      i.fas.fa-square.cac.me-3
+      | Creación de usuarios
 
     .row.justify-content-center.align-items-center
       .col-md-6
         p En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos, para administrar el equipo siempre se propone un superusuario que tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con limitaciones o sin limitaciones.
 
-        .cajon.color-acento-contenido.p-4.mb-5
+        .cajon.color-secundario.p-4.mb-5
           p En el caso de Linux, el usuario “superusuario” se llama “root”, para el sistema operativo Windows se llama “administrador” según el idioma en que sea instalado el sistema operativo.
 
       .col-md-6
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 1.
-          span Usuarios
-
+          h5 Figura 1. 
+          br
+          em Usuarios
         figure
           img(src='@/assets/curso/temas/tema2/img2-7.png', alt='')
 
-    .row.justify-content-center.align-items-center
-      .col-md-1
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-1.col-sm-10
         figure
           img(src='@/assets/curso/temas/tema2/img2-8.svg', alt="")
       .col-md-11
-        p.mb-4 Para crear un usuario en Windows server se debe iniciar sesión en el servidor como administrador, para abrir la configuración de Windows, se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra Configuración, luego se debe hacer clic en Cuentas, después, se va a otros usuarios, haciendo  clic en Agregar otra persona a este equipo y desde la barra de navegación se hace clic en Usuarios.
-        p.mb-5 Se debe hacer clic en Acción y luego Usuario nuevo desde la barra de menú:
+        p.mb-0 Para crear un usuario en Windows server se debe iniciar sesión en el servidor como administrador, para abrir la configuración de Windows, se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra Configuración, luego se debe hacer clic en Cuentas, después, se va a otros usuarios, haciendo  clic en Agregar otra persona a este equipo y desde la barra de navegación se hace clic en Usuarios.
+        br
+        p.mb-0 Se debe hacer clic en Acción y luego Usuario nuevo desde la barra de menú:
 
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2.
-          span Nuevo usuario
+          h5 Figura 2. 
+          br
+          em Nuevo usuario
         figure
           img(src='@/assets/curso/temas/tema2/img2-9.png', alt="")
 
@@ -166,7 +170,9 @@
         .cajon.color-secundario.p-4.mb-4
           p Desde ahí, debe introducirse el nombre del usuario, nombres completos, descripción del usuario y la contraseña de la cuenta.
 
-    h3.titulo-tercero Configuración del servidor NTP Windows server 2016
+    h3
+      i.fas.fa-square.cac.me-3
+      | Configuración del servidor NTP Windows server 2016
 
     p Es de gran importancia tener la sincronización del tiempo, tanto para los equipos cliente, como para el servidor, ya que algún error en los tiempos puede afectar las tareas administrativas.
 
@@ -196,8 +202,10 @@
             i.lista-ul__vineta
             | Actualizaciones y sincronización de los equipos
 
-    h3.titulo-tercero Configuración desde el 
-                      em PowerShell
+    h3
+      i.fas.fa-square.cac.me-3
+      | Configuración desde el 
+      em PowerShell
     p Para la configuración desde el PowerShell, se realizan los siguientes pasos:
 
     .tarjeta.tarjeta--gris.p-4.mb-5
@@ -234,7 +242,9 @@
             figure
               img(src='@/assets/curso/temas/tema2/img2-14.png', alt="")
 
-    h3.titulo-tercero Errores de instalación
+    h3
+      i.fas.fa-square.cac.me-3
+      | Errores de instalación
 
     .row.justify-content-center.align-items-center
       .col-md-4

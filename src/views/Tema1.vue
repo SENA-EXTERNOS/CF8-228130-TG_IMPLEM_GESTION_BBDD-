@@ -80,38 +80,34 @@
         figure.mb-5
           img(src='@/assets/curso/temas/tema1/img1-4.svg', alt="")
 
-    TabsA.color-primario
-      .tarjeta.color-adicional-1.p-4(titulo="Código abierto")
-        h4 Código abierto
+    TabsA.color-primario.mb-5
+      .tarjeta.tarjeta--border.color-secundario.p-4(titulo="Código abierto")
         .row
-          .col-xl-6.mb-5
+          .col-xl-2.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='')
-          .col-xl-6
+          .col-xl-8
             p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos softwares que derivan proyectos anteriores como es el caso de Unix.
 
       .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre")
-        h4 <em>Software</em> libre
         .row
-          .col-xl-6.mb-5
+          .col-xl-2.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='')
           .col-xl-6
             p Su código estará siempre disponible para usarlo, copiarlo y distribuirlo; es por esto que su código fuente está siempre a la mano, entendiendo que, el hecho de que un <em>software</em> sea libre no significa que este sea gratuito, se deje usar o copiar.
 
       .tarjeta.color-adicional-1.p-4(titulo="<em>Copyleft</em>")
-        h4 <em>Copyleft</em>
         .row
-          .col-xl-6.mb-5
+          .col-xl-2.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='')
           .col-xl-6
             p Están protegidas por la legislación internacional de <em>Copyright</em>, estas restringen las modificaciones o copias sin la autorización del autor. Sin embargo, estas licencias definen las condiciones en las que se puede hacer uso, copia, modificación y distribución del <em>software</em>.
 
       .tarjeta.color-adicional-1.p-4(titulo="GPL <em>General Public License</em>")
-        h4 GPL <em>General Public License</em>
         .row
-          .col-xl-6.mb-5
+          .col-xl-2.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='')
           .col-xl-6
@@ -137,7 +133,8 @@
       .col-md-7
         p.mb-4 Una red de computadoras que se interconectan entre sí, se define como una red, utilizando dispositivos físicos que envían y reciben datos con el fin de compartir recursos, información y ofrecer múltiples servicios. El alcance de una red dependerá de su tamaño geográfico, ya que puede variar desde pocos equipos en una empresa hasta miles de estos conectados a largas distancias, es por esto que las redes se catalogan según su extensión de la siguiente forma:
 
-        p.mb-5 <b>Red de área local:</b> esta red suele interconectar equipos y dispositivos cerca, por ejemplo, en una empresa o un hogar. Existen otras redes como la (WAN) que es una red de área extensa y conecta varios equipos que se encuentran a largas distancias, un ejemplo de esta sería dos LAN interconectadas a largas distancias. El internet es un tipo de red WAN (Tanenbaum et al, 2012).
+        .fcac25.p-4.mb-5
+          p.mb-0 <b>Red de área local:</b> esta red suele interconectar equipos y dispositivos cerca, por ejemplo, en una empresa o un hogar. Existen otras redes como la (WAN) que es una red de área extensa y conecta varios equipos que se encuentran a largas distancias, un ejemplo de esta sería dos LAN interconectadas a largas distancias. El internet es un tipo de red WAN (Tanenbaum et al, 2012).
         
       .col-md-5
         figure.mb-5
@@ -163,7 +160,9 @@
         p.mb-0 Actualmente la mejor opción para transportar señales de datos es la fibra óptica, ya que lo hace mediante pulsos modulados de luz, como el cable no transporta impulsos eléctricos, la señal no se ve afectada por interferencias y lo hace más seguro, debido a que la pérdida de datos es nula. Sin embargo, un inconveniente de la fibra óptica, es que se puede llegar a romper fácilmente si la manipulación no se hace de forma adecuada, luego es más difícil de manipular y cortar, ya que requiere un equipo especial. #[br]
         p Ahora bien, existen las topologías en las redes, las cuales definen cómo se interconectan dispositivos para intercambiar datos lógica y físicamente, es decir cómo está diseñada la red.
 
-    h3.titulo-tercero Topologías básicas de redes
+    h3
+      i.fas.fa-square.cac.me-3
+      | Topologías básicas de redes
 
     p Existen 5 topologías básicas, estas son:
 
@@ -213,15 +212,17 @@
             h4 Topología híbrida
             p En ella se pueden utilizar una o más topologías fusionadas para brindar una mejor seguridad y estabilidad en la organización; es importante decir que, en esta topología, si un solo equipo falla no afectará al resto de la red, generalmente se pueden hacer combinaciones entre la estrella-bus y estrella-anillo (Sánchez et al, 2020).
 
-    h3.titulo-tercero Modelo OSI
+    h3
+      i.fas.fa-square.cac.me-3
+      | Modelo OSI
 
     .row.justify-content-center.align-items-center
       .col-md-7
         p.mb-4 Un puente de red, es un dispositivo de interconexión de redes, este opera en la capa 2 del modelo OSI, divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes que también opera en la capa de enlace de datos, este interconecta dos o más segmentos de red. Ahora bien, un router es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
       
-        .cajon.color-acento-contenido.p-4.mb-4
+        .fcac25.p-4.mb-5
           p <b>¿Qué es TCP/IP?</b>
-          p.mb-5 Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de software y un nivel de hardware (Kurose et at, 2017).
+          p.mb-0 Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de software y un nivel de hardware (Kurose et at, 2017).
     
       .col-md-5
         figure
@@ -229,73 +230,77 @@
 
     p ¿Qué es un protocolo? Puede ser relativamente simple o complejo, es un conjunto de reglas que permiten la conexión y comunicación de dos o más entidades de un sistema.
 
-    .row.justify-content-center.align-items-center
-      .col-md-1
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-1.col-sm-10
         figure
           img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="")
       .col-md-11
-        p.mb-5 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los sistemas son diferentes, este modelo está conformado por 7 capas, cada una de estas tienen sus propias funciones y así el conjunto alcanza su objetivo (Sánchez et al, 2020). A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
+        p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los sistemas son diferentes, este modelo está conformado por 7 capas, cada una de estas tienen sus propias funciones y así el conjunto alcanza su objetivo (Sánchez et al, 2020). A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
+    
+    
+    .col-md-8.mx-auto.mb-5
+      ImagenInfograficaB.color-acento-contenido.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema1/img1-20.svg', alt="")
 
-    ImagenInfograficaB.color-acento-contenido.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema1/img1-20.svg', alt="")
+        div(x="30%" y="6%" tooltip="Capa de aplicación" numero="+")
+          h5 Capa de aplicación
+          p • #[em HyperText Transfer Protocol] (HTTP) #[br]
+          p • #[em File Transfer Protocol] (FTP) #[br]
+          p • #[em Simple Mail Transfer Protocol] (SMTP) #[br]
+          p • #[em Secure Shell] (SSH) #[br]
+          p • #[em Simple Network Management Protocol] (SNMP) #[br]
+          p • #[em Domain Name System] (dignissim) #[br]#[br]
+          p Estos protocolos se utilizan más en cuando se ven videos o se envían mensajes en #[em software] de mensajería o correos electrónicos.
 
-      div(x="30%" y="6%" tooltip="Capa de aplicación" numero="+")
-        h5 Capa de aplicación
-        p • #[em HyperText Transfer Protocol] (HTTP) #[br]
-        p • #[em File Transfer Protocol] (FTP) #[br]
-        p • #[em Simple Mail Transfer Protocol] (SMTP) #[br]
-        p • #[em Secure Shell] (SSH) #[br]
-        p • #[em Simple Network Management Protocol] (SNMP) #[br]
-        p • #[em Domain Name System] (dignissim) #[br]#[br]
-        p Estos protocolos se utilizan más en cuando se ven videos o se envían mensajes en #[em software] de mensajería o correos electrónicos.
+        div(x="26%" y="20%" tooltip="Capa de presentación" numero="+")
+          h5 Capa de presentación
+          p • #[em Apple Filing Protocol] (AFP) #[br]
+          p • #[em Network File System] (NFS) #[br]#[br]
+          p Traduce el formato en el que se quiere ver, un ejemplo sería cuando se descarga un archivo, la extensión de este será manejada por esta capa.
 
-      div(x="26%" y="20%" tooltip="Capa de presentación" numero="+")
-        h5 Capa de presentación
-        p • #[em Apple Filing Protocol] (AFP) #[br]
-        p • #[em Network File System] (NFS) #[br]#[br]
-        p Traduce el formato en el que se quiere ver, un ejemplo sería cuando se descarga un archivo, la extensión de este será manejada por esta capa.
+        div(x="22%" y="35%" tooltip="Capa de sesión" numero="+")
+          h5 Capa de sesión
+          p • #[em Network Basic Input/Output System (NetBIOS)] #[br]
+          p • #[em Internet Storage Name Service (ISNS)] #[br]
+          p • #[em File Transfer Protocol (FTP)] #[br]
+          p • #[em Session Annoucement Protocol (SAP)] #[br]#[br]
+          p Lleva a cabo la comunicación, autoriza y gestiona el enlace entre los dispositivos.
 
-      div(x="22%" y="35%" tooltip="Capa de sesión" numero="+")
-        h5 Capa de sesión
-        p • #[em Network Basic Input/Output System (NetBIOS)] #[br]
-        p • #[em Internet Storage Name Service (ISNS)] #[br]
-        p • #[em File Transfer Protocol (FTP)] #[br]
-        p • #[em Session Annoucement Protocol (SAP)] #[br]#[br]
-        p Lleva a cabo la comunicación, autoriza y gestiona el enlace entre los dispositivos.
+        div(x="17%" y="49%" tooltip="Capa de transporte de datos" numero="+")
+          h5 Capa de transporte de datos
+          p • #[em User Datagram Protocol (UDP)] #[br]
+          p • #[em Transmission Control Protocol (TCP)] #[br]#[br]
+          p Hace la segmentación de lo que se va a compartir, fragmenta en varias partes, según la capacidad de la red.
 
-      div(x="17%" y="49%" tooltip="Capa de transporte de datos" numero="+")
-        h5 Capa de transporte de datos
-        p • #[em User Datagram Protocol (UDP)] #[br]
-        p • #[em Transmission Control Protocol (TCP)] #[br]#[br]
-        p Hace la segmentación de lo que se va a compartir, fragmenta en varias partes, según la capacidad de la red.
+        div(x="13%" y="64%" tooltip="Capa de red" numero="+")
+          h5 Capa de red
+          p • #[em Interior Gateway Protocol (IGP)] #[br]
+          p • #[em Internet Protocol (IP)] #[br]
+          p • #[em Routing Information Protocol (RIP)] #[br]
+          p • #[em Internetwork Packet Exchange / Sequence Packet Exchange (IPX / SPX)] #[br]#[br]
+          p Calcula la mejor ruta para enviar los paquetes, se encarga de direccionar los datos transmitidos para que salgan y lleguen al destino.
 
-      div(x="13%" y="64%" tooltip="Capa de red" numero="+")
-        h5 Capa de red
-        p • #[em Interior Gateway Protocol (IGP)] #[br]
-        p • #[em Internet Protocol (IP)] #[br]
-        p • #[em Routing Information Protocol (RIP)] #[br]
-        p • #[em Internetwork Packet Exchange / Sequence Packet Exchange (IPX / SPX)] #[br]#[br]
-        p Calcula la mejor ruta para enviar los paquetes, se encarga de direccionar los datos transmitidos para que salgan y lleguen al destino.
+        div(x="9%" y="78%" tooltip="Capa de enlace de datos" numero="+")
+          h5 Capa de enlace de datos
+          p • #[em Ethernet] #[br]
+          p • #[em Fiber Distributed Data Interface (FDDI)] #[br]
+          p • #[em Address Resolution Protocol (ARP)] #[br]
+          p • #[em Point to Point Protocol (PPP)] #[br]#[br]
+          p Obtiene la información y la traduce en binario para así enviarla a la capa física.
 
-      div(x="9%" y="78%" tooltip="Capa de enlace de datos" numero="+")
-        h5 Capa de enlace de datos
-        p • #[em Ethernet] #[br]
-        p • #[em Fiber Distributed Data Interface (FDDI)] #[br]
-        p • #[em Address Resolution Protocol (ARP)] #[br]
-        p • #[em Point to Point Protocol (PPP)] #[br]#[br]
-        p Obtiene la información y la traduce en binario para así enviarla a la capa física.
+        div(x="4%" y="93%" tooltip="Capa física" numero="+")
+          h5 Capa física
+          p • #[em Digital Subscriber Line (DLS)] #[br]
+          p • #[em Integrated Services Digital Network (ISDN)] #[br]
+          p • #[em Bluetooth] #[br]
+          p • #[em Universal Serial Bus (USB)] #[br]#[br]
+          p Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
 
-      div(x="4%" y="93%" tooltip="Capa física" numero="+")
-        h5 Capa física
-        p • #[em Digital Subscriber Line (DLS)] #[br]
-        p • #[em Integrated Services Digital Network (ISDN)] #[br]
-        p • #[em Bluetooth] #[br]
-        p • #[em Universal Serial Bus (USB)] #[br]#[br]
-        p Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
-
-    h3.titulo-tercero Protocolos de RED
+    h3
+      i.fas.fa-square.cac.me-3
+      | Protocolos de RED
 
     p.mb-4 Dentro de los protocolos de red más usados están:
 
