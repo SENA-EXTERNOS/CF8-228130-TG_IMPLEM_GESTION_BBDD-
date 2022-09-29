@@ -18,14 +18,14 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-1.png', alt="")
 
-      p.mb-4 La principal función de un sistema operativo de red es brindar una forma de transmisión de archivos de un equipo a otro, la internet brinda un mecanismo para hacer transferencias a través del FTP (#[em File Transfer Protocol]).
+      p.mb-5 La principal función de un sistema operativo de red es brindar una forma de transmisión de archivos de un equipo a otro, la internet brinda un mecanismo para hacer transferencias a través del FTP (#[em File Transfer Protocol]).
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-5
         .col-lg-9
           .cajon.color-acento-contenido.p-4
             p El primer sistema operativo de red estaba enfocado a equipos con un procesador motorola 6800, luego aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías, también brindaba apoyo al protocolo de #[em AppleTalk]. (Cura, 2020).
       
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-5
         .col-lg-9
 
           .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -66,7 +66,7 @@
       
     .row.justify-content-center.mb-5
       .col-lg-8  
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-5
           p Puede decirse que tanto Unix, como Linux son sistemas operativos idénticos (Cura, 2020).
 
     Separador
@@ -74,17 +74,17 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Licenciamientos
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-left")
 
-        figure.mb-4
+        figure.mb-5
           img(src='@/assets/curso/temas/tema1/img1-4.svg', alt="")
 
     TabsA.color-primario
       .tarjeta.color-adicional-1.p-4(titulo="Código abierto")
         h4 Código abierto
         .row
-          .col-xl-6.mb-4
+          .col-xl-6.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='')
           .col-xl-6
@@ -93,7 +93,7 @@
       .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre")
         h4 <em>Software</em> libre
         .row
-          .col-xl-6.mb-4
+          .col-xl-6.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='')
           .col-xl-6
@@ -102,7 +102,7 @@
       .tarjeta.color-adicional-1.p-4(titulo="<em>Copyleft</em>")
         h4 <em>Copyleft</em>
         .row
-          .col-xl-6.mb-4
+          .col-xl-6.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='')
           .col-xl-6
@@ -111,21 +111,21 @@
       .tarjeta.color-adicional-1.p-4(titulo="GPL <em>General Public License</em>")
         h4 GPL <em>General Public License</em>
         .row
-          .col-xl-6.mb-4
+          .col-xl-6.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='')
           .col-xl-6
             p Limita la distribución del <em>software</em> e impide que pueda ser integrado. Además, se basa en la legislación internación de <em>Copyright</em>.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-10
 
-        figure.mb-4
+        figure.mb-5
           img(src='@/assets/curso/temas/tema1/img1-9.svg', alt="")
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-8  
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-5
           p En resumen, existen muchos tipos de licencias específicas y se clasifican según el tipo, el uso, el tiempo y el público a quien va dirigido.
 
     Separador
@@ -137,10 +137,10 @@
       .col-md-7
         p.mb-4 Una red de computadoras que se interconectan entre sí, se define como una red, utilizando dispositivos físicos que envían y reciben datos con el fin de compartir recursos, información y ofrecer múltiples servicios. El alcance de una red dependerá de su tamaño geográfico, ya que puede variar desde pocos equipos en una empresa hasta miles de estos conectados a largas distancias, es por esto que las redes se catalogan según su extensión de la siguiente forma:
 
-        p.mb-4 <b>Red de área local:</b> esta red suele interconectar equipos y dispositivos cerca, por ejemplo, en una empresa o un hogar. Existen otras redes como la (WAN) que es una red de área extensa y conecta varios equipos que se encuentran a largas distancias, un ejemplo de esta sería dos LAN interconectadas a largas distancias. El internet es un tipo de red WAN (Tanenbaum et al, 2012).
+        p.mb-5 <b>Red de área local:</b> esta red suele interconectar equipos y dispositivos cerca, por ejemplo, en una empresa o un hogar. Existen otras redes como la (WAN) que es una red de área extensa y conecta varios equipos que se encuentran a largas distancias, un ejemplo de esta sería dos LAN interconectadas a largas distancias. El internet es un tipo de red WAN (Tanenbaum et al, 2012).
         
       .col-md-5
-        figure.mb-4
+        figure.mb-5
           img(src='@/assets/curso/temas/tema1/img1-10.png', alt="")
 
     .row.justify-content-center.align-items-center
@@ -153,9 +153,9 @@
 
         p.mb-4 Entre los medios de conexión que permiten intercambiar datos se encuentra el cable de red, existe el cable de par trenzado que es el medio de transmisión más utilizado, el cual, está formado por dos hebras aisladas de hilo de cobre o aleación trenzado entre sí. Estos cables pueden transportar datos y señales a distancias de 100 metros y son llamados cables UTP, también es el cable en una LAN algo parecido se encuentra con los cables STP, que utilizan una funda de cobre trenzado, que es más protector de interferencias. El cableado par trenzado generalmente utiliza conectores RJ-45 (<em>Registered Jack</em>) para la conexión a un dispositivo.
 
-        p.mb-4 Un cable muy común es el Coaxial que está formado en su interior por cobre, rodeado por un aislamiento y una capa de metal trenzado y es una buena opción cuando se transmiten señales a larga distancia. Este cable necesita tener terminaciones en cada extremo y su cobertura es aproximada a los 185 metros.
+        p.mb-5 Un cable muy común es el Coaxial que está formado en su interior por cobre, rodeado por un aislamiento y una capa de metal trenzado y es una buena opción cuando se transmiten señales a larga distancia. Este cable necesita tener terminaciones en cada extremo y su cobertura es aproximada a los 185 metros.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1-12.png')})`}"
       )
@@ -167,7 +167,7 @@
 
     p Existen 5 topologías básicas, estas son:
 
-    TabsC.color-acento-contenido.mb-4
+    TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Topología bus")
         .row.justify-content-center.align-items-center
           .col-md-5
@@ -218,10 +218,11 @@
     .row.justify-content-center.align-items-center
       .col-md-7
         p.mb-4 Un puente de red, es un dispositivo de interconexión de redes, este opera en la capa 2 del modelo OSI, divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes que también opera en la capa de enlace de datos, este interconecta dos o más segmentos de red. Ahora bien, un router es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
-
-        p <b>¿Qué es TCP/IP?</b>
-        p Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de software y un nivel de hardware (Kurose et at, 2017).
-
+      
+        .cajon.color-acento-contenido.p-4.mb-4
+          p <b>¿Qué es TCP/IP?</b>
+          p.mb-5 Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de software y un nivel de hardware (Kurose et at, 2017).
+    
       .col-md-5
         figure
         img(src='@/assets/curso/temas/tema1/img1-18.png', alt="")
@@ -233,23 +234,98 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="")
       .col-md-11
-        p.mb-4 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los sistemas son diferentes, este modelo está conformado por 7 capas, cada una de estas tienen sus propias funciones y así el conjunto alcanza su objetivo (Sánchez et al, 2020). A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
+        p.mb-5 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los sistemas son diferentes, este modelo está conformado por 7 capas, cada una de estas tienen sus propias funciones y así el conjunto alcanza su objetivo (Sánchez et al, 2020). A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
 
-    ImagenInfograficaB.color-primario
+    ImagenInfograficaB.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img1-20.svg', alt="")
 
-          div(x="20%" y="20%" tooltip="Capa de aplicación" numero="1")
-          h5 Capa de aplicación
-          p •#[em HyperText Transfer Protocol] (HTTP) #[br]
-          p •#[em File Transfer Protocol] (FTP) #[br]
-          p •#[em Simple Mail Transfer Protocol] (SMTP) #[br]
-          p •#[em Secure Shell] (SSH) #[br]
-          p •#[em Simple Network Management Protocol] (SNMP) #[br]
-          p •#[em Domain Name System] (dignissim) #[br]
-          p Estos protocolos se utilizan más en cuando se ven videos o se envían mensajes en #[em software] de mensajería o correos electrónicos.
+      div(x="30%" y="6%" tooltip="Capa de aplicación" numero="+")
+        h5 Capa de aplicación
+        p • #[em HyperText Transfer Protocol] (HTTP) #[br]
+        p • #[em File Transfer Protocol] (FTP) #[br]
+        p • #[em Simple Mail Transfer Protocol] (SMTP) #[br]
+        p • #[em Secure Shell] (SSH) #[br]
+        p • #[em Simple Network Management Protocol] (SNMP) #[br]
+        p • #[em Domain Name System] (dignissim) #[br]#[br]
+        p Estos protocolos se utilizan más en cuando se ven videos o se envían mensajes en #[em software] de mensajería o correos electrónicos.
 
+      div(x="26%" y="20%" tooltip="Capa de presentación" numero="+")
+        h5 Capa de presentación
+        p • #[em Apple Filing Protocol] (AFP) #[br]
+        p • #[em Network File System] (NFS) #[br]#[br]
+        p Traduce el formato en el que se quiere ver, un ejemplo sería cuando se descarga un archivo, la extensión de este será manejada por esta capa.
+
+      div(x="22%" y="35%" tooltip="Capa de sesión" numero="+")
+        h5 Capa de sesión
+        p • #[em Network Basic Input/Output System (NetBIOS)] #[br]
+        p • #[em Internet Storage Name Service (ISNS)] #[br]
+        p • #[em File Transfer Protocol (FTP)] #[br]
+        p • #[em Session Annoucement Protocol (SAP)] #[br]#[br]
+        p Lleva a cabo la comunicación, autoriza y gestiona el enlace entre los dispositivos.
+
+      div(x="17%" y="49%" tooltip="Capa de transporte de datos" numero="+")
+        h5 Capa de transporte de datos
+        p • #[em User Datagram Protocol (UDP)] #[br]
+        p • #[em Transmission Control Protocol (TCP)] #[br]#[br]
+        p Hace la segmentación de lo que se va a compartir, fragmenta en varias partes, según la capacidad de la red.
+
+      div(x="13%" y="64%" tooltip="Capa de red" numero="+")
+        h5 Capa de red
+        p • #[em Interior Gateway Protocol (IGP)] #[br]
+        p • #[em Internet Protocol (IP)] #[br]
+        p • #[em Routing Information Protocol (RIP)] #[br]
+        p • #[em Internetwork Packet Exchange / Sequence Packet Exchange (IPX / SPX)] #[br]#[br]
+        p Calcula la mejor ruta para enviar los paquetes, se encarga de direccionar los datos transmitidos para que salgan y lleguen al destino.
+
+      div(x="9%" y="78%" tooltip="Capa de enlace de datos" numero="+")
+        h5 Capa de enlace de datos
+        p • #[em Ethernet] #[br]
+        p • #[em Fiber Distributed Data Interface (FDDI)] #[br]
+        p • #[em Address Resolution Protocol (ARP)] #[br]
+        p • #[em Point to Point Protocol (PPP)] #[br]#[br]
+        p Obtiene la información y la traduce en binario para así enviarla a la capa física.
+
+      div(x="4%" y="93%" tooltip="Capa física" numero="+")
+        h5 Capa física
+        p • #[em Digital Subscriber Line (DLS)] #[br]
+        p • #[em Integrated Services Digital Network (ISDN)] #[br]
+        p • #[em Bluetooth] #[br]
+        p • #[em Universal Serial Bus (USB)] #[br]#[br]
+        p Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
+
+    h3.titulo-tercero Protocolos de RED
+
+    p.mb-4 Dentro de los protocolos de red más usados están:
+
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4(titulo="DNS")
+        .row.justify-content-center.align-items-center
+          .col-md-5
+           figure
+            img(src='@/assets/curso/temas/tema1/img1-21.svg', alt="")
+          .col-md-5.mb-4.mb-md-0
+            h4 DNS
+            p Se encarga de transformar las direcciones IP a nombres.
+
+      .py-3.py-md-4(titulo="DHCP")
+        .row.justify-content-center.align-items-center
+          .col-md-5
+           figure
+            img(src='@/assets/curso/temas/tema1/img1-22.svg', alt="")
+          .col-md-5.mb-4.mb-md-0
+            h4 DHCP
+            p Protocolo de configuración dinámica de host, permite que los dispositivos tengan una configuración de red de una manera automática, es más fácil de administrar.
+
+      .py-3.py-md-4(titulo="HTTP")
+        .row.justify-content-center.align-items-center
+          .col-md-5
+           figure
+            img(src='@/assets/curso/temas/tema1/img1-23.svg', alt="")
+          .col-md-5.mb-4.mb-md-0
+            h4 HTTP
+            p Es de los más importantes, ya que hace la transferencia de documentos de tipo “Hipertexto”. (Kurose et al, 2017).
 
 </template>
 
