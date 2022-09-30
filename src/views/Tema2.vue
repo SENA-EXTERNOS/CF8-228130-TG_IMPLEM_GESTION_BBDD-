@@ -23,7 +23,7 @@
       .col-lg-12
 
         figure.mb-5
-          img(src='@/assets/curso/temas/tema2/img2-1.svg', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-1.svg', alt="Windows Server")
 
     .row.justify-content-center.align-items-center
       .col-md-7
@@ -41,12 +41,12 @@
 
       .col.md-5
         figure.mb-5
-          img(src='@/assets/curso/temas/tema2/img2-2.png', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-2.png', alt="Tipo de instalación")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-6
         figure
-          img(src='@/assets/curso/temas/tema2/img2-3.png', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-3.png', alt="¿Dónde instalar Windows?")
 
       .col-md-6
         p A partir de la anterior imagen y se analizan los componentes para la preparación del disco duro:
@@ -72,7 +72,7 @@
     .row.justify-content-center.align-items-center
       .col-md-6
         figure
-          img(src='@/assets/curso/temas/tema2/img2-4.png', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-4.png', alt="Paso 3 de instalación")
 
       .col-md-6
         p En la anterior imagen se puede ver, que la opción
@@ -107,7 +107,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/img2-5.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/img2-5.svg', alt='Instalación atendida')
         
         h2.text-center Atendida
         p El usuario realiza el procedimiento paso a paso utilizando el software para la instalación del sistema operativo.
@@ -116,7 +116,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/img2-6.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/img2-6.svg', alt='Instalación desatendida')
         
         h2.text-center Desatendida
         p En este tipo de instalación, se realiza la configuración anterior y luego el sistema operativo se instala automáticamente, sin necesidad de realizar algún paso a paso por parte del usuario.
@@ -145,12 +145,12 @@
           br
           em Usuarios
         figure
-          img(src='@/assets/curso/temas/tema2/img2-7.png', alt='')
+          img(src='@/assets/curso/temas/tema2/img2-7.png', alt='Usuarios')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-1.col-sm-10
         figure
-          img(src='@/assets/curso/temas/tema2/img2-8.svg', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-8.svg', alt="Monitor")
       .col-md-11
         p.mb-0 Para crear un usuario en Windows server se debe iniciar sesión en el servidor como administrador, para abrir la configuración de Windows, se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra Configuración, luego se debe hacer clic en Cuentas, después, se va a otros usuarios, haciendo  clic en Agregar otra persona a este equipo y desde la barra de navegación se hace clic en Usuarios.
         br
@@ -163,7 +163,7 @@
           br
           em Nuevo usuario
         figure
-          img(src='@/assets/curso/temas/tema2/img2-9.png', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-9.png', alt="Nuevo usuario")
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -179,7 +179,7 @@
     .row.justify-content-center.align-items-center
       .col-md-4
         figure
-          img(src='@/assets/curso/temas/tema2/img2-10.svg', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-10.svg', alt="Imagen decorativa")
       .col-md-8
         p Estos procesos en 
           em Windows server 
@@ -216,7 +216,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img2-11.png', alt="")
+              img(src='@/assets/curso/temas/tema2/img2-11.png', alt="Configuración con PowerShell, paso 1")
 
         .row(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
@@ -224,7 +224,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img2-12.png', alt="")
+              img(src='@/assets/curso/temas/tema2/img2-12.png', alt="Configuración con PowerShell, paso 2")
 
         .row(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
@@ -232,7 +232,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img2-13.png', alt="")
+              img(src='@/assets/curso/temas/tema2/img2-13.png', alt="Configuración con PowerShell, paso 3")
 
         .row(titulo="Paso 4")
           .col-md-6.mb-4.mb-md-0
@@ -240,7 +240,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img2-14.png', alt="")
+              img(src='@/assets/curso/temas/tema2/img2-14.png', alt="Configuración con PowerShell, paso 4")
 
     h3
       i.fas.fa-square.cac.me-3
@@ -249,7 +249,7 @@
     .row.justify-content-center.align-items-center
       .col-md-4
         figure
-          img(src='@/assets/curso/temas/tema2/img2-15.svg', alt="")
+          img(src='@/assets/curso/temas/tema2/img2-15.svg', alt="Señal de error")
       .col-md-8
         .cajon.color-acento-contenido.p-4.mb-5
           p Existen muchos errores a la hora de instalar un sistema operativo, entre los más comunes están los famosos bugs, que son errores de programación dentro de un software, lo que causa un exceso en el uso de los recursos, bloqueos de pantallas que no permiten abrir aplicaciones o servicios, esto se resuelve haciendo una reparación o reinstalación del sistema operativo.

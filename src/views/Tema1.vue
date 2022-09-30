@@ -16,7 +16,7 @@
         p Un NOS maneja los servicios óptimos para que el usuario esté libre de error al conectarse a una red, este provee una interfaz de usuario que permite reducir la complejidad y dificultades al usar la red.
       .col-md-5
         figure
-          img(src='@/assets/curso/temas/tema1/img1-1.png', alt="")
+          img(src='@/assets/curso/temas/tema1/img1-1.png', alt="Microchip")
 
       p.mb-5 La principal función de un sistema operativo de red es brindar una forma de transmisión de archivos de un equipo a otro, la internet brinda un mecanismo para hacer transferencias a través del FTP (#[em File Transfer Protocol]).
 
@@ -42,7 +42,7 @@
     ImagenInfografica.color-primario
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema1/img1-3.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
           
       .tarjeta.color-secundario.p-3(x="10%" y="13%" numero="+")
         .h5.mb-2 Windows 3.11
@@ -78,14 +78,14 @@
       .col-lg-10(data-aos="flip-left")
 
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img1-4.svg', alt="")
+          img(src='@/assets/curso/temas/tema1/img1-4.svg', alt="Licencias")
 
     TabsA.color-primario.mb-5
       .tarjeta.tarjeta--border.color-secundario.p-4(titulo="Código abierto")
         .row
           .col-xl-2.mb-5
             figure
-              img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='Caja abierta')
           .col-xl-8
             p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos softwares que derivan proyectos anteriores como es el caso de Unix.
 
@@ -93,7 +93,7 @@
         .row
           .col-xl-2.mb-5
             figure
-              img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='Pantalla con la palabra API')
           .col-xl-6
             p Su código estará siempre disponible para usarlo, copiarlo y distribuirlo; es por esto que su código fuente está siempre a la mano, entendiendo que, el hecho de que un <em>software</em> sea libre no significa que este sea gratuito, se deje usar o copiar.
 
@@ -101,7 +101,7 @@
         .row
           .col-xl-2.mb-5
             figure
-              img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='Certificado')
           .col-xl-6
             p Están protegidas por la legislación internacional de <em>Copyright</em>, estas restringen las modificaciones o copias sin la autorización del autor. Sin embargo, estas licencias definen las condiciones en las que se puede hacer uso, copia, modificación y distribución del <em>software</em>.
 
@@ -109,7 +109,7 @@
         .row
           .col-xl-2.mb-5
             figure
-              img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Licencia GPL')
           .col-xl-6
             p Limita la distribución del <em>software</em> e impide que pueda ser integrado. Además, se basa en la legislación internación de <em>Copyright</em>.
 
@@ -117,7 +117,7 @@
       .col-lg-10
 
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img1-9.svg', alt="")
+          img(src='@/assets/curso/temas/tema1/img1-9.svg', alt="Imagen decorativa")
 
     .row.justify-content-center.mb-5
       .col-lg-8  
@@ -138,12 +138,12 @@
         
       .col-md-5
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img1-10.png', alt="")
+          img(src='@/assets/curso/temas/tema1/img1-10.png', alt="Mundo conectado")
 
     .row.justify-content-center.align-items-center
       .col-md-5
         figure
-        img(src='@/assets/curso/temas/tema1/img1-11.png', alt="")
+        img(src='@/assets/curso/temas/tema1/img1-11.png', alt="Conexiones de red")
 
       .col-md-7
         p.mb-4 Otro concepto que debe tenerse en cuenta es la Intranet, que es básicamente, una red interna con un alcance dentro de una organización o entidad, este tipo de red nos garantiza un mejor control de la seguridad, estabilidad y <em>performance</em> en la gestión de la información.
@@ -171,7 +171,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-13.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-13.svg', alt="Conexiones tipo bus")
           .col-md-5.mb-4.mb-md-0
             h4 Topología bus
             p Se evidencia cuando los dispositivos están conectados a un cable, un ejemplo de esto sería dos equipos conectados entre sí por un mismo cable, esta topología tiene una desventaja grande y es que si en algún momento el cable principal falla, la red también dejaría de funcionar.
@@ -180,7 +180,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="Conexiones tipo estrella")
           .col-md-5.mb-4.mb-md-0
             h4 Topología estrella
             p Es en donde los dispositivos están conectados a segmentos de cables que llegan hasta el concentrador, esta topología se encuentra en empresas y hogares normalmente, una ventaja de la topología estrella es que si uno de los dispositivos de la red falla, los demás dispositivos podrán funcionar normalmente.
@@ -189,7 +189,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="Conexiones tipo malla")
           .col-md-5.mb-4.mb-md-0
             h4 Topología malla
             p Aquí los dispositivos de la red están conectados entre sí mediante un cable, esta topología brinda mayor estabilidad en la conexión y transferencia de datos, una de sus ventajas es que permite hacer respaldo de la información, ya que proporciona múltiples rutas, esta requiere más cable lo que hace su costo de instalación más elevado.
@@ -198,7 +198,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="Conexiones tipo anillo")
           .col-md-5.mb-4.mb-md-0
             h4 Topología anillo
             p Aquí los dispositivos están conectados a un cable en forma circular alrededor de un concentrador central (Kurose, 2017).
@@ -207,7 +207,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-17.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-17.svg', alt="Conexiones híbridas")
           .col-md-5.mb-4.mb-md-0
             h4 Topología híbrida
             p En ella se pueden utilizar una o más topologías fusionadas para brindar una mejor seguridad y estabilidad en la organización; es importante decir que, en esta topología, si un solo equipo falla no afectará al resto de la red, generalmente se pueden hacer combinaciones entre la estrella-bus y estrella-anillo (Sánchez et al, 2020).
@@ -226,14 +226,14 @@
     
       .col-md-5
         figure
-        img(src='@/assets/curso/temas/tema1/img1-18.png', alt="")
+        img(src='@/assets/curso/temas/tema1/img1-18.png', alt="Autopista de datos")
 
     p ¿Qué es un protocolo? Puede ser relativamente simple o complejo, es un conjunto de reglas que permiten la conexión y comunicación de dos o más entidades de un sistema.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-1.col-sm-10
         figure
-          img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="")
+          img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="Monitor con la palabra OSI")
       .col-md-11
         p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los sistemas son diferentes, este modelo está conformado por 7 capas, cada una de estas tienen sus propias funciones y así el conjunto alcanza su objetivo (Sánchez et al, 2020). A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
     
@@ -242,7 +242,7 @@
       ImagenInfograficaB.color-acento-contenido.mb-5
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img1-20.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-20.svg', alt="Capas del modelo OSI")
 
         div(x="30%" y="6%" tooltip="Capa de aplicación" numero="+")
           h5 Capa de aplicación
@@ -309,7 +309,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-21.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-21.svg', alt="DNS")
           .col-md-5.mb-4.mb-md-0
             h4 DNS
             p Se encarga de transformar las direcciones IP a nombres.
@@ -318,7 +318,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-22.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-22.svg', alt="DHCP")
           .col-md-5.mb-4.mb-md-0
             h4 DHCP
             p Protocolo de configuración dinámica de host, permite que los dispositivos tengan una configuración de red de una manera automática, es más fácil de administrar.
@@ -327,7 +327,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-23.svg', alt="")
+            img(src='@/assets/curso/temas/tema1/img1-23.svg', alt="HTTP")
           .col-md-5.mb-4.mb-md-0
             h4 HTTP
             p Es de los más importantes, ya que hace la transferencia de documentos de tipo “Hipertexto”. (Kurose et al, 2017).
