@@ -9,7 +9,13 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7
-        p.mb-4 Son aquellos sistemas que están unidos a dos o más equipos utilizando un medio de comunicación, con el objetivo de compartir recursos de hardware y software; entre los sistemas operativos de red más comunes están: #[ em LAN Manager, Novell Netware, Linux, UNIX, LanTastic, Windows Server,] etc.
+        p.mb-4 Son aquellos sistemas que están unidos a dos o más equipos utilizando un medio de comunicación, con el objetivo de compartir recursos de 
+         em hardware 
+         | y 
+         em software; 
+         | entre los sistemas operativos de red más comunes están: 
+         em LAN Manager, Novell Netware, Linux, UNIX, LanTastic, Windows Server, 
+         | etc.
           
         p.mb-4 Una red de equipos no pude funcionar sin un sistema operativo de red, al igual que un equipo sin un sistema operativo, a estos sistemas de red también se les conoce como NOS; otra definición es que es un software que rige y administra recursos en una red y lleva el control de seguridad de los mismos.
           
@@ -23,7 +29,9 @@
       .row.justify-content-center.mb-5
         .col-lg-9
           .cajon.color-acento-contenido.p-4
-            p El primer sistema operativo de red estaba enfocado a equipos con un procesador motorola 6800, luego aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías, también brindaba apoyo al protocolo de #[em AppleTalk]. (Cura, 2020).
+            p El primer sistema operativo de red estaba enfocado a equipos con un procesador motorola 6800, luego aparecieron los procesadores intel como 
+              em Novell Netware; 
+              | el éxito de este #[em software] de red es que a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías, también brindaba apoyo al protocolo de #[em AppleTalk]. (Cura, 2020).
       
       .row.justify-content-center.mb-5
         .col-lg-9
@@ -35,39 +43,45 @@
             .bloque-texto-g__texto.p-4
               p.mb-0 Para el año 2000, apareció la versión de #[em Microsoft Windows] 200 profesional el que se adoptaría por su estabilidad y por primera vez presentó también el #[em ActiveDirectory], la versión actual de #[em Microsoft] para estaciones de trabajo, el #[em Windows Server] 2022, lanzado en agosto del 2021, el cual aplica protección multicapa contra amenazas con un servidor de núcleo seguro y ejecuta cargas de trabajo como SQL server utilizando 48Tb de memoria, también usa #[em Windows] admin center para mejorar la gestión de máquinas virtuales y conexión a #[em Azure].
 
-      p.mb-4 Se presentan las características técnicas en la familia Windows.
+      p.mb-4 Se presentan las características técnicas en la familia 
+        em Windows.
 
-      p A continuación, se muestran las características técnicas en la familia de Windows:
+      p A continuación, se muestran las características técnicas en la familia de 
+        em Windows:
 
     ImagenInfografica.color-primario
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
           
-      .tarjeta.color-secundario.p-3(x="10%" y="13%" numero="+")
+      .tarjeta.color-secundario.p-3(x="12%" y="16%" numero="+")
         .h5.mb-2 Windows 3.11
-        p •Es de 16 Bit #[br]
-        p •Fue diseñado y desarrollado para gestionar recursos en la networking basadas en Windows y peer to peer.#[br]
-        p •No fue diseñado para soportar muchos usuarios.
+        p • Es de 16 Bit
+        p • Fue diseñado y desarrollado para gestionar recursos en la networking basadas en Windows y peer to peer.
+        p • No fue diseñado para soportar muchos usuarios.
 
-      .tarjeta.color-secundario.p-3(x="90%" y="13%" numero="+")
+      .tarjeta.color-secundario.p-3(x="88%" y="16%" numero="+")
         .h5.mb-2 Windows NT
-        p •Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.#[br]
-        p •Tiene mayores requerimientos de hardware frente a Windows 95.#[br]
-        p •Su interfaz gráfica es amigable similar a la de Windows 95.
+        p • Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.
+        p • Tiene mayores requerimientos de hardware frente a Windows 95.
+        p • Su interfaz gráfica es amigable similar a la de Windows 95.
 
-      .tarjeta.color-secundario.p-3(x="10%" y="60%" numero="+")
+      .tarjeta.color-secundario.p-3(x="12%" y="61%" numero="+")
         .h5.mb-2 UNIX
         p Desarrollado en el lenguaje C, está disponible en varias versiones, entre ellas, una adaptada por IBM para el uso en estaciones de trabajo, UNIX permite múltiples tareas y múltiples usuarios, su sistema de archivo admite la organización fácil a los archivos y permite la protección de los mismos, para el año 71 Ritchie y kernigham desarrollan el lenguaje C en un PDP-11, luego en 1973, Ritchie y Thompson desarrollan un sistema multiusuario, UNIX había nacido. (Lezcano, 2018)
 
-      .tarjeta.color-secundario.p-3(x="90%" y="60%" numero="+")
+      .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
         .h5.mb-2 LINUX
         p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos Unix y es por eso que Linux tiene mayores capacidades para navegar.
       
     .row.justify-content-center.mb-5
       .col-lg-8  
         .cajon.color-acento-contenido.p-4.mb-5
-          p Puede decirse que tanto Unix, como Linux son sistemas operativos idénticos (Cura, 2020).
+          p Puede decirse que tanto 
+            em Unix, 
+            | como 
+            em Linux 
+            | son sistemas operativos idénticos (Cura, 2020).
 
     Separador
 
@@ -75,52 +89,91 @@
       h2 1.1 Licenciamientos
 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="flip-left")
-
-        figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img1-4.svg', alt="Licencias")
+      .col-lg-10
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fcac25
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas
+                p.mb-0 
+                  b
+                    span.text.cac Las licencias 
+                    | son básicamente, convenios o contratos en donde el usuario acepta las condiciones y términos de la empresa desarrolladora para hacer uso del 
+                    em software, 
+                    | los términos serán más o menos restrictivos, si es libre o propietario. Por tanto, las licencias son permisos para poder usar algún tipo de 
+                    em software 
+                    | y pueden tener limitación de tiempo y variar según la ubicación geográfica donde se utiliza.
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
+              figure.mb-5
+                img(src='@/assets/curso/temas/tema1/img1-4.png', alt="Licencias")
 
     TabsA.color-primario.mb-5
-      .tarjeta.tarjeta--border.color-secundario.p-4(titulo="Código abierto")
-        .row
+      .tarjeta.tarjeta--border.color-adicional-1.p-4(titulo="Código abierto").borde
+        .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
+            h4 
+              span.text-white CA
             figure
               img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='Caja abierta')
           .col-xl-8
-            p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos softwares que derivan proyectos anteriores como es el caso de Unix.
+            p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos 
+              em software 
+              | que derivan proyectos anteriores como es el caso de 
+              em Unix.
 
-      .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre")
-        .row
+      .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre").borde
+        .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
+            h4 
+              span.text-white SL
             figure
               img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='Pantalla con la palabra API')
           .col-xl-6
             p Su código estará siempre disponible para usarlo, copiarlo y distribuirlo; es por esto que su código fuente está siempre a la mano, entendiendo que, el hecho de que un <em>software</em> sea libre no significa que este sea gratuito, se deje usar o copiar.
 
-      .tarjeta.color-adicional-1.p-4(titulo="<em>Copyleft</em>")
-        .row
+      .tarjeta.color-adicional-1.p-4(titulo="<em>Copyleft</em>").borde
+        .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
+            h4
+              span.text-white CL
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='Certificado')
           .col-xl-6
             p Están protegidas por la legislación internacional de <em>Copyright</em>, estas restringen las modificaciones o copias sin la autorización del autor. Sin embargo, estas licencias definen las condiciones en las que se puede hacer uso, copia, modificación y distribución del <em>software</em>.
 
-      .tarjeta.color-adicional-1.p-4(titulo="GPL <em>General Public License</em>")
-        .row
+      .tarjeta.color-adicional-1.p-4(titulo="GPL <em>General Public License</em>").borde
+        .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
+            h4 
+              span.text-white GPL
             figure
               img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Licencia GPL')
           .col-xl-6
-            p Limita la distribución del <em>software</em> e impide que pueda ser integrado. Además, se basa en la legislación internación de <em>Copyright</em>.
+            p Limita la distribución del <em>software</em> e impide que pueda ser integrado. Además, se basa en la legislación internacional de <em>Copyright</em>.
 
     .row.justify-content-center.mb-5
       .col-lg-10
 
-        figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img1-9.svg', alt="Imagen decorativa")
+        .bloque-texto-g.fcac25.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1-9.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4.mb-5.borde-lineas
+            p.mb-3 Un tema muy interesante es el referente a los licenciamientos de los servidores, desde 
+              em Windows Server 
+              | 2016, cambia la forma en como se licencian los sistemas operativos en temas de servidores.
+              br
+              br
+            p El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de 
+              em Windows Server, 
+              | a un nuevo modelo donde por cada núcleo de la CPU tenga una licencia 
+              em Core 
+              | de 
+              em Windows Server, 
+              | esto se debe a que las CPU actuales cuentan por varios núcleos o 
+              em Cores, 
+              | lo que se convierte en una CPU, existen varias CPU en forma de núcleos.
 
     .row.justify-content-center.mb-5
-      .col-lg-8  
+      .col-lg-10
         .cajon.color-acento-contenido.p-4.mb-5
           p En resumen, existen muchos tipos de licencias específicas y se clasifican según el tipo, el uso, el tiempo y el público a quien va dirigido.
 
@@ -140,7 +193,7 @@
         figure.mb-5
           img(src='@/assets/curso/temas/tema1/img1-10.png', alt="Mundo conectado")
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-5
         figure
         img(src='@/assets/curso/temas/tema1/img1-11.png', alt="Conexiones de red")
@@ -173,7 +226,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-13.svg', alt="Conexiones tipo bus")
           .col-md-5.mb-4.mb-md-0
-            h4 Topología bus
             p Se evidencia cuando los dispositivos están conectados a un cable, un ejemplo de esto sería dos equipos conectados entre sí por un mismo cable, esta topología tiene una desventaja grande y es que si en algún momento el cable principal falla, la red también dejaría de funcionar.
 
       .py-3.py-md-4(titulo="Topología estrella")
@@ -182,7 +234,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="Conexiones tipo estrella")
           .col-md-5.mb-4.mb-md-0
-            h4 Topología estrella
             p Es en donde los dispositivos están conectados a segmentos de cables que llegan hasta el concentrador, esta topología se encuentra en empresas y hogares normalmente, una ventaja de la topología estrella es que si uno de los dispositivos de la red falla, los demás dispositivos podrán funcionar normalmente.
 
       .py-3.py-md-4(titulo="Topología malla")
@@ -191,7 +242,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="Conexiones tipo malla")
           .col-md-5.mb-4.mb-md-0
-            h4 Topología malla
             p Aquí los dispositivos de la red están conectados entre sí mediante un cable, esta topología brinda mayor estabilidad en la conexión y transferencia de datos, una de sus ventajas es que permite hacer respaldo de la información, ya que proporciona múltiples rutas, esta requiere más cable lo que hace su costo de instalación más elevado.
 
       .py-3.py-md-4(titulo="Topología anillo")
@@ -200,7 +250,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="Conexiones tipo anillo")
           .col-md-5.mb-4.mb-md-0
-            h4 Topología anillo
             p Aquí los dispositivos están conectados a un cable en forma circular alrededor de un concentrador central (Kurose, 2017).
 
       .py-3.py-md-4(titulo="Topología híbrida")
@@ -209,7 +258,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-17.svg', alt="Conexiones híbridas")
           .col-md-5.mb-4.mb-md-0
-            h4 Topología híbrida
             p En ella se pueden utilizar una o más topologías fusionadas para brindar una mejor seguridad y estabilidad en la organización; es importante decir que, en esta topología, si un solo equipo falla no afectará al resto de la red, generalmente se pueden hacer combinaciones entre la estrella-bus y estrella-anillo (Sánchez et al, 2020).
 
     h3
@@ -222,7 +270,11 @@
       
         .fcac25.p-4.mb-5
           p <b>¿Qué es TCP/IP?</b>
-          p.mb-0 Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de software y un nivel de hardware (Kurose et at, 2017).
+          p.mb-0 Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de 
+            em software 
+            | y un nivel de 
+            em hardware 
+            | (Kurose et at, 2017).
     
       .col-md-5
         figure
@@ -239,63 +291,63 @@
     
     
     .col-md-8.mx-auto.mb-5
-      ImagenInfograficaB.color-acento-contenido.mb-5
+      ImagenInfografica.color-acento-contenido.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img1-20.svg', alt="Capas del modelo OSI")
 
-        div(x="30%" y="6%" tooltip="Capa de aplicación" numero="+")
-          h5 Capa de aplicación
-          p • #[em HyperText Transfer Protocol] (HTTP) #[br]
-          p • #[em File Transfer Protocol] (FTP) #[br]
-          p • #[em Simple Mail Transfer Protocol] (SMTP) #[br]
-          p • #[em Secure Shell] (SSH) #[br]
-          p • #[em Simple Network Management Protocol] (SNMP) #[br]
-          p • #[em Domain Name System] (dignissim) #[br]#[br]
+        .tarjeta.color-acento-contenido.p-3(x="30%" y="7%" numero="+")
+          .h5.mb-2 Capa de aplicación
+          p.mb-0 • #[em HyperText Transfer Protocol] (HTTP)
+          p.mb-0 • #[em File Transfer Protocol] (FTP)
+          p.mb-0 • #[em Simple Mail Transfer Protocol] (SMTP)
+          p.mb-0 • #[em Secure Shell] (SSH)
+          p.mb-0 • #[em Simple Network Management Protocol] (SNMP)
+          p • #[em Domain Name System] (dignissim)
           p Estos protocolos se utilizan más en cuando se ven videos o se envían mensajes en #[em software] de mensajería o correos electrónicos.
 
-        div(x="26%" y="20%" tooltip="Capa de presentación" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="26%" y="21%" numero="+")
           h5 Capa de presentación
-          p • #[em Apple Filing Protocol] (AFP) #[br]
-          p • #[em Network File System] (NFS) #[br]#[br]
+          p.mb-0 • #[em Apple Filing Protocol] (AFP)
+          p • #[em Network File System] (NFS)
           p Traduce el formato en el que se quiere ver, un ejemplo sería cuando se descarga un archivo, la extensión de este será manejada por esta capa.
 
-        div(x="22%" y="35%" tooltip="Capa de sesión" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="22%" y="36%" numero="+")
           h5 Capa de sesión
-          p • #[em Network Basic Input/Output System (NetBIOS)] #[br]
-          p • #[em Internet Storage Name Service (ISNS)] #[br]
-          p • #[em File Transfer Protocol (FTP)] #[br]
-          p • #[em Session Annoucement Protocol (SAP)] #[br]#[br]
+          p.mb-0 • #[em Network Basic Input/Output System (NetBIOS)]
+          p.mb-0 • #[em Internet Storage Name Service (ISNS)]
+          p.mb-0 • #[em File Transfer Protocol (FTP)]
+          p • #[em Session Annoucement Protocol (SAP)]
           p Lleva a cabo la comunicación, autoriza y gestiona el enlace entre los dispositivos.
 
-        div(x="17%" y="49%" tooltip="Capa de transporte de datos" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="17%" y="50%" numero="+")
           h5 Capa de transporte de datos
-          p • #[em User Datagram Protocol (UDP)] #[br]
-          p • #[em Transmission Control Protocol (TCP)] #[br]#[br]
+          p.mb-0 • #[em User Datagram Protocol (UDP)]
+          p • #[em Transmission Control Protocol (TCP)]
           p Hace la segmentación de lo que se va a compartir, fragmenta en varias partes, según la capacidad de la red.
 
-        div(x="13%" y="64%" tooltip="Capa de red" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="13%" y="65%" numero="+")
           h5 Capa de red
-          p • #[em Interior Gateway Protocol (IGP)] #[br]
-          p • #[em Internet Protocol (IP)] #[br]
-          p • #[em Routing Information Protocol (RIP)] #[br]
-          p • #[em Internetwork Packet Exchange / Sequence Packet Exchange (IPX / SPX)] #[br]#[br]
+          p.mb-0 • #[em Interior Gateway Protocol (IGP)]
+          p.mb-0 • #[em Internet Protocol (IP)]
+          p.mb-0 • #[em Routing Information Protocol (RIP)]
+          p • #[em Internetwork Packet Exchange / Sequence Packet Exchange (IPX / SPX)]
           p Calcula la mejor ruta para enviar los paquetes, se encarga de direccionar los datos transmitidos para que salgan y lleguen al destino.
 
-        div(x="9%" y="78%" tooltip="Capa de enlace de datos" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="8%" y="80%" numero="+")
           h5 Capa de enlace de datos
-          p • #[em Ethernet] #[br]
-          p • #[em Fiber Distributed Data Interface (FDDI)] #[br]
-          p • #[em Address Resolution Protocol (ARP)] #[br]
-          p • #[em Point to Point Protocol (PPP)] #[br]#[br]
+          p.mb-0 • #[em Ethernet]
+          p.mb-0 • #[em Fiber Distributed Data Interface (FDDI)]
+          p.mb-0 • #[em Address Resolution Protocol (ARP)]
+          p • #[em Point to Point Protocol (PPP)]
           p Obtiene la información y la traduce en binario para así enviarla a la capa física.
 
-        div(x="4%" y="93%" tooltip="Capa física" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="4%" y="94%" numero="+")
           h5 Capa física
-          p • #[em Digital Subscriber Line (DLS)] #[br]
-          p • #[em Integrated Services Digital Network (ISDN)] #[br]
-          p • #[em Bluetooth] #[br]
-          p • #[em Universal Serial Bus (USB)] #[br]#[br]
+          p.mb-0 • #[em Digital Subscriber Line (DLS)]
+          p.mb-0 • #[em Integrated Services Digital Network (ISDN)]
+          p.mb-0 • #[em Bluetooth]
+          p • #[em Universal Serial Bus (USB)]
           p Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
 
     h3
@@ -311,7 +363,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-21.svg', alt="DNS")
           .col-md-5.mb-4.mb-md-0
-            h4 DNS
             p Se encarga de transformar las direcciones IP a nombres.
 
       .py-3.py-md-4(titulo="DHCP")
@@ -320,8 +371,9 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-22.svg', alt="DHCP")
           .col-md-5.mb-4.mb-md-0
-            h4 DHCP
-            p Protocolo de configuración dinámica de host, permite que los dispositivos tengan una configuración de red de una manera automática, es más fácil de administrar.
+            p Protocolo de configuración dinámica de 
+              em host, 
+              | permite que los dispositivos tengan una configuración de red de una manera automática, es más fácil de administrar.
 
       .py-3.py-md-4(titulo="HTTP")
         .row.justify-content-center.align-items-center
@@ -329,7 +381,6 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-23.svg', alt="HTTP")
           .col-md-5.mb-4.mb-md-0
-            h4 HTTP
             p Es de los más importantes, ya que hace la transferencia de documentos de tipo “Hipertexto”. (Kurose et al, 2017).
 
 </template>

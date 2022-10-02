@@ -7,12 +7,16 @@ export default {
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        clases: ['animation-size-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['animation-size-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['animation-lr-1'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -163,7 +167,7 @@ export default {
         'el protocolo propuesto del servicio de nombres de almacenamiento de internet permite el descubrimiento, la administración y la configuración automatizados de dispositivos <em>iSCSI</em> y <em>Fibre Channel</em> en una red TCP / IP.',
     },
     {
-      termino: 'NETBIOS',
+      termino: '<em>NETBIOS</em>',
       significado:
         'una especificación de interfaz para acceso a servicios de red, es decir, una capa de <em>software</em> desarrollado para enlazar un sistema operativo de red con <em>hardware</em> específico.',
     },

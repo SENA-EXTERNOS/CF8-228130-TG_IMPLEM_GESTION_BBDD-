@@ -11,6 +11,26 @@
     right: 30%
 
 
+.animation-size
+  &-1
+    animation: size 3.5s ease infinite alternate
+    position: absolute
+    top: 70%
+    right: 90%
+  &-2
+    animation: size 3.5s ease infinite alternate-reverse
+    position: absolute
+    top: 25%
+    right: 62%
+
+.animation-lr
+  &-1
+    animation: l-r 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 2%
+    right: 10%
+
+
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -18,11 +38,63 @@
   100%
     transform: translateY(0px)
 
-.fcac25
-  background-color: rgba(255, 179, 11, .25) !important
+@keyframes size
+  0%
+    transform: scale(1)
+  50%
+    transform: scale(1.2)
+  100%
+    transform: scale(1.4)
 
+@keyframes l-r
+  0%
+    transform: translateX(30px)
+  100%
+    transform: translateX(0px)
+
+
+// Colores cortos
 .cac
   color: $color-acento-contenido !important
 
+.cab
+  color: $color-acento-botones !important
+
 .cp
   color: $color-primario !important
+
+.cs
+  color: $color-secundario !important
+
+.cst
+  color: $color-sistema-texto !important
+
+.fcac25
+  background-color: rgba(255, 179, 11, .25) !important
+
+.cs25
+  background-color: rgba(185, 221, 252, 25) !important
+
+
+//BORDES
+// Líneas/Rayas alrededor de un párrafo
+.borde-lineas
+  border-width: 2px
+  border-style: dashed
+  border-color: $color-primario
+
+.borde
+  border-width: 4px
+  border-style: groove
+  border-color: $color-secundario
+
+//Cuadrados con Texto
+.caja
+  background: $color-secundario
+
+//Rectángulos
+.rectangulo
+  width: 250px
+  height: 50px
+  background-position: bottom right
+  
