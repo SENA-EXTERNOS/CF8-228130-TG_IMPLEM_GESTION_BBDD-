@@ -7,7 +7,7 @@
         span 1
       h1 Introducción a los sistemas operativos de red
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-7
         p.mb-4 Son aquellos sistemas que están unidos a dos o más equipos utilizando un medio de comunicación, con el objetivo de compartir recursos de 
          em hardware 
@@ -29,7 +29,7 @@
       .row.justify-content-center.mb-5
         .col-lg-9
           .cajon.color-acento-contenido.p-4
-            p El primer sistema operativo de red estaba enfocado a equipos con un procesador motorola 6800, luego aparecieron los procesadores intel como 
+            p El primer sistema operativo de red estaba enfocado a equipos con un procesador Motorola 6800, luego aparecieron los procesadores Intel como 
               em Novell Netware; 
               | el éxito de este #[em software] de red es que a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías, también brindaba apoyo al protocolo de #[em AppleTalk]. (Cura, 2020).
       
@@ -41,7 +41,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1-2.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 Para el año 2000, apareció la versión de #[em Microsoft Windows] 200 profesional el que se adoptaría por su estabilidad y por primera vez presentó también el #[em ActiveDirectory], la versión actual de #[em Microsoft] para estaciones de trabajo, el #[em Windows Server] 2022, lanzado en agosto del 2021, el cual aplica protección multicapa contra amenazas con un servidor de núcleo seguro y ejecuta cargas de trabajo como SQL server utilizando 48Tb de memoria, también usa #[em Windows] admin center para mejorar la gestión de máquinas virtuales y conexión a #[em Azure].
+              p.mb-0 Para el año 2000, apareció la versión de #[em Microsoft Windows] 200 profesional, el que se adoptaría por su estabilidad y por primera vez presentó también el #[em ActiveDirectory], la versión actual de #[em Microsoft] para estaciones de trabajo, el #[em Windows Server] 2022, lanzado en agosto del 2021, el cual aplica protección multicapa contra amenazas con un servidor de núcleo seguro y ejecuta cargas de trabajo como SQL server utilizando 48Tb de memoria, también usa #[em Windows] admin center para mejorar la gestión de máquinas virtuales y conexión a #[em Azure].
 
       p.mb-4 Se presentan las características técnicas en la familia 
         em Windows.
@@ -55,24 +55,41 @@
           img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
           
       .tarjeta.color-secundario.p-3(x="12%" y="16%" numero="+")
-        .h5.mb-2 Windows 3.11
+        .h5.mb-2 #[em Windows] 3.11
         p • Es de 16 Bit
-        p • Fue diseñado y desarrollado para gestionar recursos en la networking basadas en Windows y peer to peer.
+        p • Fue diseñado y desarrollado para gestionar recursos en la 
+          em networking 
+          | basadas en 
+          em Windows 
+          | y 
+          em peer to peer.
         p • No fue diseñado para soportar muchos usuarios.
 
       .tarjeta.color-secundario.p-3(x="88%" y="16%" numero="+")
-        .h5.mb-2 Windows NT
+        .h5.mb-2 #[em Windows] NT
         p • Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.
-        p • Tiene mayores requerimientos de hardware frente a Windows 95.
-        p • Su interfaz gráfica es amigable similar a la de Windows 95.
+        p • Tiene mayores requerimientos de 
+          em hardware 
+          | frente a 
+          em Windows 
+          | 95.
+        p • Su interfaz gráfica es amigable similar a la de 
+          em Windows 
+          | 95.
 
-      .tarjeta.color-secundario.p-3(x="12%" y="61%" numero="+")
-        .h5.mb-2 UNIX
-        p Desarrollado en el lenguaje C, está disponible en varias versiones, entre ellas, una adaptada por IBM para el uso en estaciones de trabajo, UNIX permite múltiples tareas y múltiples usuarios, su sistema de archivo admite la organización fácil a los archivos y permite la protección de los mismos, para el año 71 Ritchie y kernigham desarrollan el lenguaje C en un PDP-11, luego en 1973, Ritchie y Thompson desarrollan un sistema multiusuario, UNIX había nacido. (Lezcano, 2018)
+      .tarjeta.color-secundario.p-3(x="12%" y="62%" numero="+")
+        .h5.mb-2 #[em UNIX]
+        p Desarrollado en el lenguaje C, está disponible en varias versiones, entre ellas, una adaptada por IBM para el uso en estaciones de trabajo, 
+          em UNIX 
+          | permite múltiples tareas y múltiples usuarios, su sistema de archivo admite la organización fácil a los archivos y permite la protección de los mismos, para el año 71 Ritchie y Kernigham desarrollan el lenguaje C en un PDP-11, luego en 1973, Ritchie y Thompson desarrollan un sistema multiusuario, 
+          em UNIX 
+          | había nacido. (Lezcano, 2018)
 
       .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
         .h5.mb-2 LINUX
-        p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos Unix y es por eso que Linux tiene mayores capacidades para navegar.
+        p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos 
+          em Unix 
+          | y es por eso que Linux tiene mayores capacidades para navegar.
       
     .row.justify-content-center.mb-5
       .col-lg-8  
@@ -104,6 +121,8 @@
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
               figure.mb-5
                 img(src='@/assets/curso/temas/tema1/img1-4.png', alt="Licencias")
+
+    p.mb-5 Las licencias se pueden definir en varios tipos como:
 
     TabsA.color-primario.mb-5
       .tarjeta.tarjeta--border.color-adicional-1.p-4(titulo="Código abierto").borde
@@ -266,7 +285,9 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7
-        p.mb-4 Un puente de red, es un dispositivo de interconexión de redes, este opera en la capa 2 del modelo OSI, divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes que también opera en la capa de enlace de datos, este interconecta dos o más segmentos de red. Ahora bien, un router es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
+        p.mb-4 Un puente de red, es un dispositivo de interconexión de redes, este opera en la capa 2 del modelo OSI, divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes que también opera en la capa de enlace de datos, este interconecta dos o más segmentos de red. Ahora bien, un 
+          em router 
+          | es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
       
         .fcac25.p-4.mb-5
           p <b>¿Qué es TCP/IP?</b>
