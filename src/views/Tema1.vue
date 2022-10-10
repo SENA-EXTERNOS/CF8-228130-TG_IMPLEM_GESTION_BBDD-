@@ -29,7 +29,7 @@
       .row.justify-content-center.mb-5
         .col-lg-9
           .cajon.color-acento-contenido.p-4
-            p El primer sistema operativo de red estaba enfocado a equipos con un procesador Motorola 6800, luego aparecieron los procesadores Intel como 
+            p.mb-0 El primer sistema operativo de red estaba enfocado a equipos con un procesador Motorola 6800, luego aparecieron los procesadores Intel como 
               em Novell Netware; 
               | el éxito de este #[em software] de red es que a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías, también brindaba apoyo al protocolo de #[em AppleTalk]. (Cura, 2020).
       
@@ -46,7 +46,7 @@
       p.mb-4 Se presentan las características técnicas en la familia 
         em Windows.
 
-      p A continuación, se muestran las características técnicas en la familia de 
+      p.mb-0 A continuación, se muestran las características técnicas en la familia de 
         em Windows:
 
     ImagenInfografica.color-primario
@@ -94,7 +94,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8  
         .cajon.color-acento-contenido.p-4.mb-5
-          p Puede decirse que tanto 
+          p.mb-0 Puede decirse que tanto 
             em Unix, 
             | como 
             em Linux 
@@ -194,7 +194,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-contenido.p-4.mb-5
-          p En resumen, existen muchos tipos de licencias específicas y se clasifican según el tipo, el uso, el tiempo y el público a quien va dirigido.
+          p.mb-0 En resumen, existen muchos tipos de licencias específicas y se clasifican según el tipo, el uso, el tiempo y el público a quien va dirigido.
 
     Separador
 

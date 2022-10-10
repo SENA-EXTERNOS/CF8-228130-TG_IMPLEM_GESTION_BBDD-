@@ -73,7 +73,7 @@
   background-color: rgba(255, 179, 11, .25) !important
 
 .cs25
-  background-color: rgba(185, 221, 252, 25) !important
+  background-color: rgba(185, 221, 252, .25) !important
 
 
 //BORDES
@@ -88,13 +88,30 @@
   border-style: groove
   border-color: $color-secundario
 
-//Cuadrados con Texto
-.caja
-  background: $color-secundario
 
-//Rectángulos
-.rectangulo
-  width: 250px
-  height: 50px
-  background-position: bottom right
+//Rectángulos de fondo
+.rectanguloid
+  position: relative
+  &::before
+    content: ''
+    width: 50%
+    height: 33%
+    background-color: rgba(185, 221, 252, .25)
+    bottom: 0
+    right: 0
+    display: block
+    position: absolute
+    mix-blend-mode: multiply
   
+.rcacid
+  position: relative
+  &::before
+    content: ''
+    width: 50%
+    height: 40%
+    background-color: rgba(255, 179, 11, .25)
+    bottom: 0
+    right: 0
+    display: block
+    position: absolute
+    mix-blend-mode: multiply

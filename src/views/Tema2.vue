@@ -15,7 +15,7 @@
 
     figure.mb-5
     .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fcac25
       .row.m-0.align-items-center.justify-content-between
@@ -33,7 +33,7 @@
             img(src='@/assets/curso/temas/tema2/img2-1.svg', alt="Windows Server")
 
     .row.justify-content-center.align-items-center
-      .col-md-7
+      .col-md-7.rectanguloid.p-4
         p #[b Deben aceptarse los términos de licencia y luego se visualiza una ventana que muestra dos opciones:]
 
         ol.lista-ol--cuadro
@@ -46,7 +46,7 @@
               span.cst 2
             | La siguiente opción personalizada es la que se debe hacer para realizar nuevas instalaciones del sistema operativo, cuando se hace clic en personalizada, empezará el proceso de preparación del disco duro.
 
-        .rectangulo.cs25
+          
 
       .col.md-5
         figure.mb-5
@@ -57,8 +57,9 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-3.png', alt="¿Dónde instalar Windows?")
 
-      .col-md-6
-        p A partir de la anterior imagen y se analizan los componentes para la preparación del disco duro:
+      .col-md-6.rectanguloid.p-4
+        p 
+          b A partir de la anterior imagen y se analizan los componentes para la preparación del disco duro:
 
         ol.lista-ol--cuadro
           li 
@@ -72,21 +73,22 @@
           li 
             .lista-ol--cuadro__vineta
               span.cst 3
-            | Cargar controlador: se utiliza cuando al hacer la instalación se detecta que el disco duro no es estándar y se requiere algún drive en específico para poder hacer la detección del disco duro.
+            p.mb-0 Cargar controlador: se utiliza cuando al hacer la instalación se detecta que el disco duro no es estándar y se requiere algún 
+              em drive 
+              | en específico para poder hacer la detección del disco duro.
           li
             .lista-ol--cuadro__vineta
               span.cst 4
             | Opciones de unidad: al seleccionar esta opción se visualizan las herramientas para realizar la instalación, como lo son el particionamiento y el formato.
-
-        .rectangulo.cs25
 
     .row.justify-content-center.align-items-center
       .col-md-6
         figure
           img(src='@/assets/curso/temas/tema2/img2-4.png', alt="Paso 3 de instalación")
 
-      .col-md-6
-        p En la anterior imagen se puede ver, que la opción
+      .col-md-6.rectanguloid.p-4
+        p 
+          b En la anterior imagen se puede ver, que la opción
 
         ol.lista-ol--cuadro
           li 
@@ -139,16 +141,16 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Plan de instalación: dependencias, configuración y problemas de instalación
 
-    p En este proceso se abarcan diferentes procedimientos como:
+    p.mb-5 En este proceso se abarcan diferentes procedimientos como:
 
     h3
       i.fas.fa-square.cac.me-3
       | Creación de usuarios
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6
-        p En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos, para administrar el equipo siempre se propone un superusuario que tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con limitaciones o sin limitaciones.
-
+      .col-md-6.rcacid.p-4
+        p.mb-0 En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos, para administrar el equipo siempre se propone un superusuario que tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con limitaciones o sin limitaciones.
+      
       .col-md-6
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1. 
@@ -159,8 +161,8 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .cajon.color-secundario.p-4.cs25.mb-4
-          p En el caso de Linux, el usuario “superusuario” se llama “root”, para el sistema operativo 
+        .cajon.color-secundario.cs.p-4.cs25.mb-4
+          p.mb-0 En el caso de Linux, el usuario “superusuario” se llama “root”, para el sistema operativo 
             em Windows 
             | se llama “administrador” según el idioma en que sea instalado el sistema operativo.
 
@@ -189,7 +191,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4.cs25.mb-4
-          p Desde ahí, debe introducirse el nombre del usuario, nombres completos, descripción del usuario y la contraseña de la cuenta.
+          p.mb-0 Desde ahí, debe introducirse el nombre del usuario, nombres completos, descripción del usuario y la contraseña de la cuenta.
 
     h3
       i.fas.fa-square.cac.me-3
@@ -209,9 +211,7 @@
           | 2016 son gestionados por un servicio llamado NTP, ¿Qué es el NTP? (
           em Network Time Protocol
           |) es de los más antiguos, su principal función es la sincronización de la hora de todos los dispositivos utilizando una misma red.
-        p NTP se encarga de que todos los dispositivos conectados a un dominio tengan la misma hora que el controlador de dominio y de esta forma se tenga un control y gestión en las actividades de manera exacta. Este protocolo utiliza el puerto 123 UDP.
-        
-        rectantulo.fcac25
+        p.mb-0.rcacid.p-4 NTP se encarga de que todos los dispositivos conectados a un dominio tengan la misma hora que el controlador de dominio y de esta forma se tenga un control y gestión en las actividades de manera exacta. Este protocolo utiliza el puerto 123 UDP.
         
         p Este protocolo permite:
 
@@ -283,7 +283,7 @@
           img(src='@/assets/curso/temas/tema2/img2-15.svg', alt="Señal de error")
       .col-md-8
         .cajon.color-acento-contenido.p-4.mb-5
-          p Existen muchos errores a la hora de instalar un sistema operativo, entre los más comunes están los famosos 
+          p.mb-0 Existen muchos errores a la hora de instalar un sistema operativo, entre los más comunes están los famosos 
             em bugs
             | , que son errores de programación dentro de un 
             em software
@@ -297,11 +297,9 @@
           em software 
           | que no es reconocido con el sistema operativo.
 
-    p Por otra parte, se encuentran los conocidos errores en el registro, esta es una parte del sistema que permite personalizar el equipo, si no se hace uso correcto de esto generaría errores en el sistema operativo. Finalmente, existen los virus, estos están programados para generar conflictos en el 
+    p.mb-0.rcacid.p-4 Por otra parte, se encuentran los conocidos errores en el registro, esta es una parte del sistema que permite personalizar el equipo, si no se hace uso correcto de esto generaría errores en el sistema operativo. Finalmente, existen los virus, estos están programados para generar conflictos en el 
       em software, 
       | desconfiguraciones en las aplicaciones, reinicios constantes y aleatorios. La mejor forma de proteger los equipos de ellos, será la instalación de un antivirus.
-
-      rectantulo.fcac25
 
 </template>
 
