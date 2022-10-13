@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="565.393" viewBox="0 0 820 565.393">
-  <g id="Grupo_128591" data-name="Grupo 128591" transform="translate(-390 -6229)">
+  <g id="Grupo_128589" data-name="Grupo 128589" transform="translate(-390 -6229)">
     <path id="Trazado_116940" data-name="Trazado 116940" d="M1417.378,216.528H1125.271a27.411,27.411,0,1,0,0,54.822h264.7Z" transform="translate(-493.221 6021.707)" fill="#ebf1f8"/>
     <path id="Trazado_116941" data-name="Trazado 116941" d="M1398.04,248.195H1111.605a27.411,27.411,0,1,0,0,54.822h259.023Z" transform="translate(-515.326 6072.931)" fill="#ebf1f8"/>
     <path id="Trazado_116942" data-name="Trazado 116942" d="M1378.7,279.862H1097.938a27.41,27.41,0,1,0,0,54.82h253.353Z" transform="translate(-537.434 6124.154)" fill="#ebf1f8"/>
@@ -7,30 +7,25 @@
     <path id="Trazado_116943" data-name="Trazado 116943" d="M1340.025,343.195h-269.42a27.411,27.411,0,1,0,0,54.822h242.009Z" transform="translate(-581.646 6226.599)" fill="#ebf1f8"/>
     <path id="Trazado_116945" data-name="Trazado 116945" d="M1320.689,374.862h-263.75a27.41,27.41,0,1,0,0,54.82h236.339Z" transform="translate(-603.753 6277.822)" fill="#ebf1f8"/>
     <path id="Trazado_116946" data-name="Trazado 116946" d="M1301.349,406.528H1043.271a27.411,27.411,0,1,0,0,54.822h230.667Z" transform="translate(-625.86 6329.044)" fill="#ebf1f8"/>
-    <g id="Grupo_110994" data-name="Grupo 110994" transform="translate(644.607 6229)">
-      <g id="Grupo_110993" data-name="Grupo 110993">
-        <path id="Trazado_116926" data-name="Trazado 116926" d="M1227.319,244.958l-34.964,69.928h75.816V244.958Z" transform="translate(-985.474 -163.254)" fill="#b8dcfb"/>
-        <path id="Trazado_116927" data-name="Trazado 116927" d="M1211.46,276.673,1176.5,346.6H1293.82V276.673Z" transform="translate(-1011.124 -111.954)" fill="#fff4d8"/>
-        <path id="Trazado_116928" data-name="Trazado 116928" d="M1179.746,340.1l-34.963,69.925H1345.12V340.1Z" transform="translate(-1062.424 -9.354)" fill="#084a92"/>
-        <path id="Trazado_116929" data-name="Trazado 116929" d="M1195.6,308.387l-34.964,69.928h158.83V308.387Z" transform="translate(-1036.774 -60.655)" fill="#084a92" opacity="0.35" style="isolation: isolate"/>
-        <path id="Trazado_116930" data-name="Trazado 116930" d="M1163.89,371.816l-34.964,69.928h241.845V371.816Z" transform="translate(-1088.074 41.945)" fill="#fcce57" opacity="0.35" style="isolation: isolate"/>
-        <path id="Trazado_116931" data-name="Trazado 116931" d="M1147.627,403.531l-34.308,68.616h282.7V403.531Z" transform="translate(-1113.319 93.245)" fill="#fcce57"/>
-        <path id="Trazado_116932" data-name="Trazado 116932" d="M1208.212,282.361h34.308V213.745Z" transform="translate(-959.824 -213.745)" fill="#b8dcfb" opacity="0.35" style="isolation: isolate"/>
+    <g id="Grupo_128430" data-name="Grupo 128430" transform="translate(644.607 6229)">
+      <g id="Grupo_110994" data-name="Grupo 110994" transform="translate(0 0)">
+        <g id="Grupo_110993" data-name="Grupo 110993">
+          <path id="Trazado_116926" data-name="Trazado 116926" d="M1227.319,244.958l-34.964,69.928h75.816V244.958Z" transform="translate(-985.474 -163.254)" fill="#b8dcfb"/>
+          <path id="Trazado_116927" data-name="Trazado 116927" d="M1211.46,276.673,1176.5,346.6H1293.82V276.673Z" transform="translate(-1011.124 -111.954)" fill="#fff4d8"/>
+          <path id="Trazado_116928" data-name="Trazado 116928" d="M1179.746,340.1l-34.963,69.925H1345.12V340.1Z" transform="translate(-1062.424 -9.354)" fill="#084a92"/>
+          <path id="Trazado_116929" data-name="Trazado 116929" d="M1195.6,308.387l-34.964,69.928h158.83V308.387Z" transform="translate(-1036.774 -60.655)" fill="#084a92" opacity="0.35" style="isolation: isolate"/>
+          <path id="Trazado_116930" data-name="Trazado 116930" d="M1163.89,371.816l-34.964,69.928h241.845V371.816Z" transform="translate(-1088.074 41.945)" fill="#fcce57" opacity="0.35" style="isolation: isolate"/>
+          <path id="Trazado_116931" data-name="Trazado 116931" d="M1147.627,403.531l-34.308,68.616h282.7V403.531Z" transform="translate(-1113.319 93.245)" fill="#fcce57"/>
+          <path id="Trazado_116932" data-name="Trazado 116932" d="M1208.212,282.361h34.308V213.745Z" transform="translate(-959.824 -213.745)" fill="#b8dcfb" opacity="0.35" style="isolation: isolate"/>
+        </g>
       </g>
+      <path id="Trazado_116933" data-name="Trazado 116933" d="M1262.171,244.958h-40.852v69.928h75.816Z" transform="translate(-938.623 -163.254)" fill="#96a6b4"/>
+      <path id="Trazado_116934" data-name="Trazado 116934" d="M1303.679,276.673h-82.36V346.6h117.322Z" transform="translate(-938.623 -111.954)" fill="#b8b5ae"/>
+      <path id="Trazado_116935" data-name="Trazado 116935" d="M1386.693,340.1H1221.319v69.925h200.337Z" transform="translate(-938.623 -9.354)" fill="#0c2a4b"/>
+      <path id="Trazado_116936" data-name="Trazado 116936" d="M1345.185,308.387H1221.319v69.928h158.83Z" transform="translate(-938.623 -60.655)" fill="#0c2a4b" opacity="0.35" style="isolation: isolate"/>
+      <path id="Trazado_116937" data-name="Trazado 116937" d="M1428.2,371.816h-206.88v69.928h241.844Z" transform="translate(-938.623 41.945)" fill="#b59951" opacity="0.35" style="isolation: isolate"/>
+      <path id="Trazado_116938" data-name="Trazado 116938" d="M1469.707,403.531H1221.319v68.616h282.7Z" transform="translate(-938.623 93.245)" fill="#b59951"/>
+      <path id="Trazado_116939" data-name="Trazado 116939" d="M1221.319,213.745v68.616h34.308Z" transform="translate(-938.623 -213.745)" fill="#96a6b4" opacity="0.35" style="isolation: isolate"/>
     </g>
-    <path id="Trazado_116933" data-name="Trazado 116933" d="M1262.171,244.958h-40.852v69.928h75.816Z" transform="translate(-294.016 6065.746)" fill="#96a6b4"/>
-    <path id="Trazado_116934" data-name="Trazado 116934" d="M1303.679,276.673h-82.36V346.6h117.322Z" transform="translate(-294.016 6117.046)" fill="#b8b5ae"/>
-    <path id="Trazado_116935" data-name="Trazado 116935" d="M1386.693,340.1H1221.319v69.925h200.337Z" transform="translate(-294.016 6219.646)" fill="#0c2a4b"/>
-    <path id="Trazado_116936" data-name="Trazado 116936" d="M1345.185,308.387H1221.319v69.928h158.83Z" transform="translate(-294.016 6168.345)" fill="#0c2a4b" opacity="0.35" style="isolation: isolate"/>
-    <path id="Trazado_116937" data-name="Trazado 116937" d="M1428.2,371.816h-206.88v69.928h241.844Z" transform="translate(-294.016 6270.945)" fill="#b59951" opacity="0.35" style="isolation: isolate"/>
-    <path id="Trazado_116938" data-name="Trazado 116938" d="M1469.707,403.531H1221.319v68.616h282.7Z" transform="translate(-294.016 6322.246)" fill="#b59951"/>
-    <path id="Trazado_116939" data-name="Trazado 116939" d="M1221.319,213.745v68.616h34.308Z" transform="translate(-294.016 6015.255)" fill="#96a6b4" opacity="0.35" style="isolation: isolate"/>
-    <text id="Aplicación" transform="translate(720.742 6268.64)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Aplicación</tspan></text>
-    <text id="Presentación" transform="translate(672.922 6350.616)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Presentación</tspan></text>
-    <text id="Sesión" transform="translate(639.904 6438.286)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Sesión</tspan></text>
-    <text id="Transporte" transform="translate(594.361 6519.124)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Transporte</tspan></text>
-    <text id="Red" transform="translate(557.927 6599.961)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Red</tspan></text>
-    <text id="Enlace" transform="translate(522.632 6680.8)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Enlace</tspan></text>
-    <text id="Físico" transform="translate(473.674 6766.191)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Físico</tspan></text>
   </g>
 </svg>

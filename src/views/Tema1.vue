@@ -55,7 +55,6 @@
           img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
           
       .tarjeta.color-secundario.p-3(x="12%" y="16%" numero="+")
-        .h5.mb-2 #[em Windows] 3.11
         p • Es de 16 Bit
         p • Fue diseñado y desarrollado para gestionar recursos en la 
           em networking 
@@ -66,7 +65,6 @@
         p • No fue diseñado para soportar muchos usuarios.
 
       .tarjeta.color-secundario.p-3(x="88%" y="16%" numero="+")
-        .h5.mb-2 #[em Windows] NT
         p • Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.
         p • Tiene mayores requerimientos de 
           em hardware 
@@ -78,7 +76,6 @@
           | 95.
 
       .tarjeta.color-secundario.p-3(x="12%" y="62%" numero="+")
-        .h5.mb-2 #[em UNIX]
         p Desarrollado en el lenguaje C, está disponible en varias versiones, entre ellas, una adaptada por IBM para el uso en estaciones de trabajo, 
           em UNIX 
           | permite múltiples tareas y múltiples usuarios, su sistema de archivo admite la organización fácil a los archivos y permite la protección de los mismos, para el año 71 Ritchie y Kernigham desarrollan el lenguaje C en un PDP-11, luego en 1973, Ritchie y Thompson desarrollan un sistema multiusuario, 
@@ -86,7 +83,6 @@
           | había nacido. (Lezcano, 2018)
 
       .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
-        .h5.mb-2 LINUX
         p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos 
           em Unix 
           | y es por eso que Linux tiene mayores capacidades para navegar.
