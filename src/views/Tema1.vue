@@ -263,7 +263,7 @@
         .row.justify-content-center.align-items-center
           .col-md-5
            figure
-            img(src='@/assets/curso/temas/tema1/img1-15.svg', alt="Conexiones tipo anillo")
+            img(src='@/assets/curso/temas/tema1/img1-16.svg', alt="Conexiones tipo anillo")
           .col-md-5.mb-4.mb-md-0
             p Aquí los dispositivos están conectados a un cable en forma circular alrededor de un concentrador central (Kurose, 2017).
 
