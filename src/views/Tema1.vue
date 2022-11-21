@@ -55,7 +55,7 @@
           img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
           
       .tarjeta.color-secundario.p-3(x="12%" y="16%" numero="+")
-        p • Es de 16 Bit
+        p • Es de 16 Bit.
         p • Fue diseñado y desarrollado para gestionar recursos en la 
           em networking 
           | basadas en 
@@ -89,7 +89,7 @@
       
     .row.justify-content-center.mb-5
       .col-lg-8  
-        .cajon.color-acento-contenido.p-4.mb-5
+        .cajon.color-acento-contenido.p-4
           p.mb-0 Puede decirse que tanto 
             em Unix, 
             | como 
