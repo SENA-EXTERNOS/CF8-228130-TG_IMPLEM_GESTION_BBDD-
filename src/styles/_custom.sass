@@ -31,7 +31,6 @@
     top: 2%
     right: 10%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -55,6 +54,14 @@
   100%
     transform: translateX(0px)
 
+@media screen and (max-width: 767px)
+  figure > img
+    max-width: 350px
+      margin: 1rem auto;
+
+.banner-principal__img
+  width: auto
+
 // COLORES CORTOS
 .cac
   color: $color-acento-contenido !important
@@ -77,10 +84,10 @@
 .cs25
   background-color: rgba(185, 221, 252, .25) !important
 
-.bloque-texto-p
-  background-color: #FCE0A5
+.bloque-texto-t1
+  background-color: rgba(221, 243, 243, .95)
   &:before
-    background-color: #DEF2EC
+    background-color: #FCE3AC !important
   
 //BORDES
 // Líneas/Rayas alrededor de un párrafo
@@ -89,11 +96,19 @@
   border-style: dashed
   border-color: $color-primario
 
+.contenedor-dashed
+  border: 2px dashed #004B89
+
 .borde
   border-width: 4px
   border-style: groove
   border-color: $color-secundario
 
+//TEMA 1
+.bloque-texto-p
+  background-color: #ffe4a9
+  &:before
+    background-color: #dcf5f7
 
 //Rectángulos de fondo
 .rectanguloid
@@ -121,6 +136,3 @@
     display: block
     position: absolute
     mix-blend-mode: multiply
-
-.banner-principal__img
-  width: auto
