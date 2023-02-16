@@ -9,9 +9,7 @@
 
     .row
       .col-md-12.mb-5(data-aos="fade-left")
-        p.mb-0 En el siguiente video se puede observar el proceso de instalación de 
-          em Windows Server 
-          | 2016, es importante prestar mucha atención a todos los procedimientos y explicaciones que se detallan allí:
+        p.mb-0 En el siguiente video se puede observar el proceso de instalación de Windows server 2016; es importante prestar mucha atención a todos los procedimientos y explicaciones que se detallan:
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -20,14 +18,7 @@
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fcac25
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas(data-aos="zoom-in")
-            p.mb-0 
-              b
-                span.text.cac Existen dos formas para hacer la instalación 
-                | del sistema operativo, la primera de ellas, es utilizando una máquina virtual y la segunda, haciendo la instalación desde cero en la máquina. Para poder instalar 
-                em Windows Server  
-                | hay que tener ya “booteado” la memoria USB, donde estará lista para hacer la instalación. Luego se procede a iniciar la máquina, ingresando al BIOS presionando la tecla F2, o alguna diferente dependiendo del modelo y la marca del equipo. Una vez ingresado al BIOS se configura en el 
-                em BOOT  
-                | el inicio primario por USB, para que al iniciar la máquina reconozca como dispositivo primario la memoria USB para su arranque, luego se reinicia la máquina con la USB conectada y se espera hasta que comience la instalación.
+            p.mb-0 Existen dos formas para hacer la instalación del sistema operativo; la primera de ellas, se realiza utilizando una máquina virtual, y la segunda, haciendo la instalación desde cero en la máquina. Para poder instalar Windows Server hay que tener ya “booteada” la memoria USB, que estará lista para hacer la instalación. Luego, se procede a iniciar la máquina, ingresando al BIOS presionando la tecla F2, o alguna tecla diferente, dependiendo del modelo y la marca del equipo. Una vez ingresado al BIOS, se configura en el BOOT, el inicio primario por USB, para que al iniciar la máquina se reconozca como dispositivo primario la memoria USB para su arranque; luego, se reinicia la máquina con la USB conectada y se espera hasta que comience la instalación.
         .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema2/img2-1.svg', alt="Windows Server")
@@ -60,7 +51,8 @@
           li 
             .lista-ol--cuadro__vineta
               span.cst 1
-            | Disco o discos duros para la instalación: en esta opción se seleccionan los discos que se tengan instalados en la máquina para su instalación.
+            | Disco o discos duros para la instalación: en esta opción, se seleccionan los discos que se tengan instalados en la máquina, para su instalación.
+
           li 
             .lista-ol--cuadro__vineta
               span.cst 2
@@ -68,15 +60,13 @@
           li 
             .lista-ol--cuadro__vineta
               span.cst 3
-            p.mb-0 Cargar controlador: se utiliza cuando al hacer la instalación se detecta que el disco duro no es estándar y se requiere algún 
-              em drive 
-              | en específico para poder hacer la detección del disco duro.
+            p.mb-0 Cargar controlador: se utiliza cuando al hacer la instalación, se detecta que el disco duro no es estándar y se requiere algún drive en específico, para poder hacer la detección del disco duro.
           li
             .lista-ol--cuadro__vineta
               span.cst 4
             | Opciones de unidad: al seleccionar esta opción se visualizan las herramientas para realizar la instalación, como lo son el particionamiento y el formato.
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-6(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-4.png', alt="Paso 3 de instalación")
@@ -87,24 +77,23 @@
           li 
             .lista-ol--cuadro__vineta
               span.cst 1
-            | Hace referencia a eliminar particiones primarias o extendidas en el disco duro, la opción
+            | Hace referencia a eliminar particiones primarias o extendidas en el disco duro, la opción. 
+
           li 
             .lista-ol--cuadro__vineta
               span.cst 2
-            | Formatea las particiones al disco duro, la opción
+            | Formatea las particiones al disco duro, la opción. 
+
           li 
             .lista-ol--cuadro__vineta
               span.cst 3
-            | Crea particiones primarias o extendidas, la opción
+            | Crea particiones primarias o extendidas, la opción.
+
           li
             .lista-ol--cuadro__vineta
               span.cst 4
-            | Se utiliza para hacer redimensiones de particiones; esto es muy útil, ya que permite administrar la partición, sin perder información en esta.
+            | Sutiliza para hacer redimensiones de particiones; esto es muy útil, ya que permite aministrar la partición, sin perder información en esta.
 
-    Separador
-
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1 Tipos de instalaciones de sistemas operativos
 
     p.mb-5 Dentro de los tipos de instalaciones se pueden encontrar los siguientes:
 
@@ -131,32 +120,27 @@
 
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Plan de instalación: dependencias, configuración y problemas de instalación
+    ul.lista-ul--color
+      li
+        i.fas.fa-square
+        h3.mb-0 Plan de instalación: dependencias, configuración y problemas de instalación
 
     p.mb-5(data-aos="fade-right") En este proceso se abarcan diferentes procedimientos como:
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      | Creación de usuarios
+    p.mb-4(data-aos="fade-right")
+      i.fas.fa-check.cac.me-3
+      | #[b Creación de usuarios]
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6.rcacid.p-4(data-aos="fade-right")
-        p.mb-0 En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos, para administrar el equipo siempre se propone un superusuario que tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con limitaciones o sin limitaciones.
-      .col-md-6(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 1. 
-          br
-          em Usuarios
-        figure.borde-lineas
-          img(src='@/assets/curso/temas/tema2/img2-7.png', alt='Usuarios')
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10(data-aos="flip-up")
+      .col-md-6(data-aos="fade-right")
+        .rcacid.p-4.mb-3
+          p.mb-0 En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos, para administrar el equipo siempre se propone un superusuario que tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con limitaciones o sin limitaciones.
         .cajon.color-secundario.cs.p-4.cs25.mb-4
-          p.mb-0 En el caso de Linux, el usuario “superusuario” se llama “root”, para el sistema operativo 
-            em Windows 
-            | se llama “administrador” según el idioma en que sea instalado el sistema operativo.
+          p.mb-0 En el caso de Linux, el usuario “superusuario” se llama “root”; para el sistema operativo Windows, se llama “administrador” según el idioma en que sea instalado el sistema operativo.
+      .col-md-6(data-aos="fade-left")
+        figure.borde-lineas
+          img(src='@/assets/curso/temas/tema1/c1.png', alt='Usuarios')
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-1.col-sm-2(data-aos="fade-right")
@@ -167,16 +151,17 @@
           em Windows Server 
           | se debe iniciar sesión en el servidor como administrador, para abrir la configuración de 
           em Windows, 
-          | se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra "Configuración", luego se debe hacer clic en "Cuentas", después, se va a otros usuarios, haciendo  clic en "Agregar otra persona a este equipo" y desde la barra de navegación se hace clic en "Usuarios".
+          | se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra #[b "Configuración"], luego se debe hacer clic en #[b "Cuentas"], después, se va a otros usuarios, haciendo  clic en #[b "Agregar otra persona a este equipo"] y desde la barra de navegación se hace clic en #[b "Usuarios".]
         br
         p.mb-0 Se debe hacer clic en "Acción" y luego "Usuario nuevo" desde la barra de menú:
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-          h5 Figura 2. 
-          br
-          em Nuevo usuario
+        figure.borde-lineas(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema2/img2-7.png', alt='Usuarios')
+    p.mb-5(data-aos='fade-right') Se debe hacer clic en #[b Acción] y luego #[b Usuario] nuevo desde la barra de menú:
+    .row.justify-content-center.mb-5
+      .col-lg-6
         figure.borde-lineas(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img2-9.png', alt="Nuevo usuario")
 
@@ -185,55 +170,48 @@
         .cajon.color-secundario.p-4.cs25.mb-4
           p.mb-0 Desde ahí, debe introducirse el nombre del usuario, nombres completos, descripción del usuario y la contraseña de la cuenta.
 
-    h3.mb-5(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
+    p.mb-4.fw-bold(data-aos="fade-right")
+      i.fas.fa-check.cac.me-3
       | Configuración del servidor NTP 
       em Windows Server 
       | 2016
 
-    p.mb-5(data-aos="fade-left") Es de gran importancia tener la sincronización del tiempo, tanto para los equipos cliente, como para el servidor, ya que algún error en los tiempos puede afectar las tareas administrativas.
+    p.mb-5(data-aos="fade-left") Es de gran importancia tener la sincronización del tiempo, tanto para los equipos cliente, como para el servidor, porque algún error en los tiempos, puede afectar las tareas administrativas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-10.svg', alt="Imagen decorativa")
       .col-md-8(data-aos="fade-down")
-        p Estos procesos en 
-          em Windows server 
-          | 2016 son gestionados por un servicio llamado NTP, ¿Qué es el NTP? (
-          em Network Time Protocol
-          |) es de los más antiguos, su principal función es la sincronización de la hora de todos los dispositivos utilizando una misma red.
-        p.mb-0.rcacid.p-4 NTP se encarga de que todos los dispositivos conectados a un dominio tengan la misma hora que el controlador de dominio y de esta forma se tenga un control y gestión en las actividades de manera exacta. Este protocolo utiliza el puerto 123 UDP.
+        p Estos procesos en Windows Server 2016, son gestionados por un servicio llamado NTP. ¿Qué es el NTP? Network Time Protocol es de los más antiguos y su principal función es la sincronización de la hora de todos los dispositivos, utilizando una misma red.
+          
+        p.mb-0.rcacid.p-4 NTP se encarga que todos los dispositivos conectados a un dominio, tengan la misma hora que el controlador de dominio y de esta forma se tenga un control y gestión en las actividades, de una manera exacta. Este protocolo utiliza el puerto 123 UDP.
         p Este protocolo permite:
         ul.lista-ul
           li 
             i.lista-ul__vineta.cab
-            | Autenticación de los usuarios en la red
+            | Autenticación de los usuarios en la red.
           li 
             i.lista-ul__vineta.cab
-            | Compartir información en la red
+            | Compartir información en la red.
           li 
             i.lista-ul__vineta.cab
-            | Gestión de correos electrónicos
+            | Gestión de correos electrónicos.
           li 
             i.lista-ul__vineta.cab
-            | Actualizaciones y sincronización de los equipos
+            | Actualizaciones y sincronización de los equipos.
 
-    h3.mb-5(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
+    p.mb-4.fw-bold(data-aos="fade-right")
+      i.fas.fa-check.cac.me-3
       | Configuración desde el 
       em PowerShell
-    p.mb-5(data-aos="fade-right") Para la configuración desde el 
-      em PowerShell, 
-      | se realizan los siguientes pasos:
+    p.mb-5(data-aos="fade-right") Para la configuración desde el PowerShell, se realizan los siguientes pasos:
 
     .tarjeta.tarjeta--gris.p-4.mb-5
       LineaTiempoC.color-primario(text-small)
         .row(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
-            p Abrir 
-              em PowerShell 
-              | con permisos administrador y se ejecuta el comando "w32tm /dumpreg /subkey:parameters" de esta forma se pueden ver los servidores NTP que haya en la máquina, por defecto aparecerá "time.windows.com".
+            p Abrir PowerShell con permiso de administrador y se ejecuta el comando #[b w32tm /dumpreg /subkey:parameters;] de esta forma, se pueden ver los servidores NTP que se encuentren en la máquina y, por defecto, aparecerá #[b time.windows.com.]
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img2-11.png', alt="Configuración con PowerShell, paso 1")
@@ -259,8 +237,8 @@
             figure
               img(src='@/assets/curso/temas/tema2/img2-14.png', alt="Configuración con PowerShell, paso 4")
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
+    p.mb-4(data-aos="fade-right")
+      i.fas.fa-check.cac.me-3
       | Errores de instalación
 
     .row.justify-content-center.align-items-center
@@ -269,23 +247,15 @@
           img(src='@/assets/curso/temas/tema2/img2-15.svg', alt="Señal de error")
       .col-md-8
         .cajon.color-acento-contenido.p-4.mb-5(data-aos="flip-up")
-          p.mb-0 Existen muchos errores a la hora de instalar un sistema operativo, entre los más comunes están los famosos 
-            em bugs
-            | , que son errores de programación dentro de un 
-            em software
-            | , lo que causa un exceso en el uso de los recursos, bloqueos de pantallas que no permiten abrir aplicaciones o servicios, esto se resuelve haciendo una reparación o reinstalación del sistema operativo.
+          p.mb-0 Se pueden dar bastantes errores a la hora de instalar un sistema operativo; entre los más comunes están los famosos bugs, que son errores de programación dentro de un #[em software], lo que causa un exceso en el uso de los recursos, bloqueos de pantallas, que no permiten abrir aplicaciones o servicios; esto se resuelve haciendo una reparación o reinstalación del sistema operativo.
 
-        p(data-aos="fade-left") Otro error que se presenta es con el 
-          em hardware, 
-          | evidenciado cuando hay errores de conexiones del equipo y algún dispositivo externo, es posible que los 
-          em drivers 
-          | no estén instalados correctamente o no sean del fabricante correcto. Existen también, los problemas de compatibilidad, estos se manifiestan cuando el equipo no es compatible con el dispositivo instalado, puede ser porque el dispositivo tiene un 
-          em software 
-          | que no es reconocido con el sistema operativo.
+        p(data-aos="fade-left") Otro error que se presenta es con el #[em hardware], evidenciado cuando hay errores de conexiones del equipo y algún dispositivo externo; es posible que los drivers no estén instalados apropiadamente o no sean del fabricante correcto. Existen también, los problemas de compatibilidad, los cuales se manifiestan cuando el equipo no es compatible con el dispositivo instalado y puede ser porque el dispositivo tiene un #[em software] que no es reconocido por el sistema operativo.
 
-    p.mb-0.rcacid.p-4(data-aos="fade-down") Por otra parte, se encuentran los conocidos errores en el registro, esta es una parte del sistema que permite personalizar el equipo, si no se hace uso correcto de esto generaría errores en el sistema operativo. Finalmente, existen los virus, estos están programados para generar conflictos en el 
-      em software, 
-      | desconfiguraciones en las aplicaciones, reinicios constantes y aleatorios. La mejor forma de proteger los equipos de ellos, será la instalación de un antivirus.
+    p.mb-5.rcacid.p-4(data-aos="fade-down") Por otra parte, se encuentran errores en el registro; esta es una parte del sistema que permite personalizar al equipo y si no se realiza un uso correcto, se generan errores en el sistema operativo. Finalmente, existen los virus, los cuales están programados para generar conflictos en el #[em software], desconfiguraciones en las aplicaciones, reinicios constantes y aleatorios. La mejor forma de proteger los equipos de ellos, es la instalación de un antivirus.
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .cajon.color-acento-botones.p-4.mb-4
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 

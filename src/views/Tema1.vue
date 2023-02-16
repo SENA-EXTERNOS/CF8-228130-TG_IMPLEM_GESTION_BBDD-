@@ -9,29 +9,23 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-7(data-aos="fade-right")
-        p.mb-4 Son aquellos sistemas que están unidos a dos o más equipos utilizando un medio de comunicación, con el objetivo de compartir recursos de 
-         em hardware 
-         | y 
-         em software; 
-         | entre los sistemas operativos de red más comunes están: 
-         em LAN Manager, Novell Netware, Linux, UNIX, LanTastic, Windows Server, 
-         | etc.
-          
-        p.mb-4 Una red de equipos no pude funcionar sin un sistema operativo de red, al igual que un equipo sin un sistema operativo, a estos sistemas de red también se les conoce como NOS; otra definición es que es un software que rige y administra recursos en una red y lleva el control de seguridad de los mismos.
-          
-        p Un NOS maneja los servicios óptimos para que el usuario esté libre de error al conectarse a una red, este provee una interfaz de usuario que permite reducir la complejidad y dificultades al usar la red.
+        p.mb-4 Los sistemas operativos de red, son aquellos que están unidos a dos o más equipos, utilizando un medio de comunicación, con el objetivo de compartir recursos de #[em hardware] y #[em software]; entre los sistemas operativos de red más comunes tenemos a: LAN Manager, Novell Netware, Linux, UNIX, LANtastic, Windows Server, entre otros.
+          br
+          br
+          |Una red de equipos no puede funcionar sin un sistema operativo de red, al igual que un equipo, sin un sistema operativo; a estos sistemas de red, también se les conoce como NOS; otra definición se refiere a que es un #[em software] que rige y administra recursos en una red y lleva el control de la seguridad de los mismos.
+          br
+          br
+          |Un NOS maneja los servicios óptimos para que el usuario esté libre de error al conectarse a una red; este provee una interfaz de usuario que permite reducir la complejidad y dificultades al usar la red.
       .col-md-5.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img1-1.png', alt="Microchip")
 
-      p.mb-5(data-aos="fade-right") La principal función de un sistema operativo de red es brindar una forma de transmisión de archivos de un equipo a otro, la internet brinda un mecanismo para hacer transferencias a través del FTP (#[em File Transfer Protocol]).
+      p.mb-5(data-aos="fade-right") La principal función de un sistema operativo de red es brindar una forma de transmisión de archivos de un equipo a otro, la Internet brinda un mecanismo para hacer transferencias a través del FTP (#[em File Transfer Protocol]).
 
       .row.justify-content-center.mb-5
         .col-lg-9(data-aos="flip-up")
           .cajon.color-acento-contenido.p-4
-            p.mb-0 El primer sistema operativo de red estaba enfocado a equipos con un procesador Motorola 6800, luego aparecieron los procesadores Intel como 
-              em Novell Netware; 
-              | el éxito de este #[em software] de red es que a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías, también brindaba apoyo al protocolo de #[em AppleTalk]. (Cura, 2020).
+            p.mb-0 El primer sistema operativo de red estaba enfocado hacia equipos con un procesador motorola 6800; luego, aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que, a pesar que era arcaico, estaba dispuesto a relacionarse con otras tecnologías y también brindaba apoyo al protocolo de AppleTalk. (Cura, 2020)
       
       .row.justify-content-center.mb-5
         .col-lg-9(data-aos="zoom-in")
@@ -40,13 +34,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1-2.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 Para el año 2000, apareció la versión de #[em Microsoft Windows] 200 profesional, el que se adoptaría por su estabilidad y por primera vez presentó también el #[em ActiveDirectory], la versión actual de #[em Microsoft] para estaciones de trabajo, el #[em Windows Server] 2022, lanzado en agosto del 2021, el cual aplica protección multicapa contra amenazas con un servidor de núcleo seguro y ejecuta cargas de trabajo como SQL server utilizando 48Tb de memoria, también usa #[em Windows] admin center para mejorar la gestión de máquinas virtuales y conexión a #[em Azure].
+              p.mb-0 Para el año 2000, apareció la versión de Microsoft Windows Profesional, el que se adoptaría por su estabilidad y porque, por primera vez, se presentó también el Active Directory, la versión actual de Microsoft para estaciones de trabajo; el Windows Server 2022, lanzado en agosto del 2021, el cual aplica protección multicapa contra amenazas, con un servidor de núcleo seguro y ejecuta cargas de trabajo como SQL server, utilizando 48Tb de memoria, también usa Windows Admin Center, para mejorar la gestión de máquinas virtuales y conexión con Azure.
 
-      p.mb-4(data-aos="fade-right") Se presentan las características técnicas en la familia 
-        em Windows.
 
-      p.mb-0(data-aos="fade-left") A continuación, se muestran las características técnicas en la familia de 
-        em Windows:
+      p.mb-0(data-aos="fade-left") A continuación, se muestran las características técnicas en la familia de Windows:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-sm-9
@@ -56,46 +47,33 @@
               img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
               
           .tarjeta.color-secundario.p-3(x="12%" y="16%" numero="+")
-            p • Es de 16 Bit.
-            p • Fue diseñado y desarrollado para gestionar recursos en la 
-              em networking 
-              | basadas en 
-              em Windows 
-              | y 
-              em peer to peer.
-            p • No fue diseñado para soportar muchos usuarios.
+            h4 Windows 3.11
+            p •  Es de 16 Bit.
+              br
+              | • Fue diseñado y desarrollado para gestionar recursos en la #[em networking] basadas en Windows y Peer to peer.
+              br
+              | • No fue diseñado para soportar muchos usuarios.
 
           .tarjeta.color-secundario.p-3(x="88%" y="16%" numero="+")
-            p • Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.
-            p • Tiene mayores requerimientos de 
-              em hardware 
-              | frente a 
-              em Windows 
-              | 95.
-            p • Su interfaz gráfica es amigable similar a la de 
-              em Windows 
-              | 95.
+            h4 Windows NT
+            p •  Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.
+              br
+              |• Tiene mayores requerimientos de hardware frente a Windows 95.
+              br
+              | • Su interfaz gráfica es amigable, similar a la de Windows 95.
 
           .tarjeta.color-secundario.p-3(x="12%" y="62%" numero="+")
-            p Desarrollado en el lenguaje C, está disponible en varias versiones, entre ellas, una adaptada por IBM para el uso en estaciones de trabajo, 
-              em UNIX 
-              | permite múltiples tareas y múltiples usuarios, su sistema de archivo admite la organización fácil a los archivos y permite la protección de los mismos, para el año 71 Ritchie y Kernigham desarrollan el lenguaje C en un PDP-11, luego en 1973, Ritchie y Thompson desarrollan un sistema multiusuario, 
-              em UNIX 
-              | había nacido. (Lezcano, 2018)
+            h4 UNIX
+            p Desarrollado en el lenguaje C, está disponible en varias versiones; entre ellas, una adaptada por IBM para el uso en estaciones de trabajo, UNIX permite múltiples tareas y múltiples usuarios, su sistema de archivo admite la organización fácil a los archivos y permite la protección de los mismos; para el año 1971, Ritchie y Kernigham desarrollan el lenguaje C en un PDP-11; luego, en 1973, Ritchie y Thompson desarrollan un sistema multiusuario, UNIX había nacido. (Lezcano, 2018)
 
           .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
-            p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos 
-              em Unix 
-              | y es por eso que Linux tiene mayores capacidades para navegar.
+            h4 LINUX
+            p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos Unix y es por eso que Linux tiene mayores capacidades para navegar.
       
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Puede decirse que tanto 
-            em Unix, 
-            | como 
-            em Linux 
-            | son sistemas operativos idénticos (Cura, 2020).
+          p.mb-0 Puede decirse que tanto Unix, como Linux son sistemas operativos idénticos. (Cura, 2020)
 
     Separador
 
@@ -107,9 +85,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.fcac25
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas(data-aos="zoom-in")
-              p.mb-0 
-                b
-                  span.text.cac Las licencias 
+              p.mb-0  #[b Las licencias] 
                   | son básicamente, convenios o contratos en donde el usuario acepta las condiciones y términos de la empresa desarrolladora para hacer uso del 
                   em software, 
                   | los términos serán más o menos restrictivos, si es libre o propietario. Por tanto, las licencias son permisos para poder usar algún tipo de 
@@ -132,8 +108,7 @@
           .col-xl-8
             p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos 
               em software 
-              | que derivan proyectos anteriores como es el caso de 
-              em Unix.
+              | que derivan proyectos anteriores como es el caso de  Unix.
 
       .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre").borde
         .row.m-0.justify-content-center.align-items-center
@@ -153,7 +128,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='Certificado')
           .col-xl-6
-            p Están protegidas por la legislación internacional de <em>Copyright</em>, estas restringen las modificaciones o copias sin la autorización del autor. Sin embargo, estas licencias definen las condiciones en las que se puede hacer uso, copia, modificación y distribución del <em>software</em>.
+            p Están protegidas por la legislación internacional de  Copyright; estas restringen las modificaciones o copias sin la autorización del autor. Sin embargo, estas licencias definen las condiciones en las que se puede hacer uso, copia, modificación y distribución del #[em software.]
 
       .tarjeta.color-adicional-1.p-4(titulo="GPL <em>General Public License</em>").borde
         .row.m-0.justify-content-center.align-items-center
@@ -163,7 +138,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Licencia GPL')
           .col-xl-6
-            p Limita la distribución del <em>software</em> e impide que pueda ser integrado. Además, se basa en la legislación internacional de <em>Copyright</em>.
+            p Limita la distribución del #[em software] e impide que pueda ser integrado. Además, se basa en la legislación internación de  Copyright.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -175,8 +150,10 @@
             .col-lg-8
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
-                  p Un tema muy interesante es el referente a los licenciamientos de los servidores, desde Windows server 2016, cambia la forma en como se licencian los sistemas operativos en temas de servidores.
-                  p.mb-0 El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de Windows Server, a un nuevo modelo donde por cada núcleo de la CPU tenga una licencia Core de Windows Server, esto se debe a que las CPU actuales cuentan por varios núcleos o Cores, lo que se convierte en una CPU, existen varias CPU en forma de núcleos.
+                  p Un tema muy interesante es el referente a los licenciamientos de los servidores; desde Windows Server 2016, cambia la forma como se licencian los sistemas operativos en temas de servidores.
+                    br
+                    br
+                    |El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de Windows Server, a un nuevo modelo donde, por cada núcleo de la CPU se tiene una licencia Core de Windows Server; esto se debe a que las CPU actuales cuentan con varios núcleos o Cores, lo que se convierte en una CPU y también se puede encontrar CPU en forma de núcleos.
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -186,13 +163,13 @@
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Conceptos básicos de redes y <em>networking</em>
+      h2 1.2 Conceptos básicos de redes y  networking
 
     .row.justify-content-center.align-items-center
       .col-md-7(data-aos="fade-right")
-        p.mb-4 Una red de computadoras que se interconectan entre sí, se define como una red, utilizando dispositivos físicos que envían y reciben datos con el fin de compartir recursos, información y ofrecer múltiples servicios. El alcance de una red dependerá de su tamaño geográfico, ya que puede variar desde pocos equipos en una empresa hasta miles de estos conectados a largas distancias, es por esto que las redes se catalogan según su extensión de la siguiente forma:
+        p.mb-4 Una red de computadoras que se interconecta entre sí, se define como una red, utilizando dispositivos físicos que envían y reciben datos con el fin de compartir recursos, información y ofrecer múltiples servicios. El alcance de una red dependerá de su tamaño geográfico, porque puede variar desde pocos equipos en una empresa, hasta miles de estos, conectados a largas distancias; es por esto que las redes, según su extensión, se catalogan de la siguiente forma:
         .fcac25.p-4.mb-5(data-aos="flip-up")
-          p.mb-0 <b>Red de área local:</b> esta red suele interconectar equipos y dispositivos cerca, por ejemplo, en una empresa o un hogar. Existen otras redes como la (WAN) que es una red de área extensa y conecta varios equipos que se encuentran a largas distancias, un ejemplo de esta sería dos LAN interconectadas a largas distancias. El internet es un tipo de red WAN (Tanenbaum et al, 2012).
+          p.mb-0 #[b Red de área local:] esta red suele interconectar equipos y dispositivos cerca, como, por ejemplo, en una empresa o un hogar. Existen otras redes como la (WAN) que es una red de área extensa y conecta varios equipos que se encuentran a larga distancia; un ejemplo de esta sería dos LAN interconectadas a larga distancia. El Internet es un tipo de red WAN.
       .col-md-5.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img1-10.png', alt="Mundo conectado")
@@ -218,9 +195,6 @@
             p.mb-0 Actualmente la mejor opción para transportar señales de datos es la fibra óptica, ya que lo hace mediante pulsos modulados de luz, como el cable no transporta impulsos eléctricos, la señal no se ve afectada por interferencias y lo hace más seguro, debido a que la pérdida de datos es nula. Sin embargo, un inconveniente de la fibra óptica, es que se puede llegar a romper fácilmente si la manipulación no se hace de forma adecuada, luego es más difícil de manipular y cortar, ya que requiere un equipo especial. #[br]
             p.mb-0 Ahora bien, existen las topologías en las redes, las cuales definen cómo se interconectan dispositivos para intercambiar datos lógica y físicamente, es decir cómo está diseñada la red.
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      | Topologías básicas de redes
 
     p.mb-5(data-aos="fade-right") Existen 5 topologías básicas, estas son:
 
@@ -228,18 +202,18 @@
       .py-3.py-md-4(titulo="Topología bus")
         .row.justify-content-center.align-items-center
           .col-md-5.mb-sm-4
-           figure
-            img(src='@/assets/curso/temas/tema1/img1-13.svg', alt="Conexiones tipo bus")
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-13.svg', alt="Conexiones tipo bus")
           .col-md-5.mb-4.mb-md-0
-            p Se evidencia cuando los dispositivos están conectados a un cable, un ejemplo de esto sería dos equipos conectados entre sí por un mismo cable, esta topología tiene una desventaja grande y es que si en algún momento el cable principal falla, la red también dejaría de funcionar.
+            p Se evidencia cuando los dispositivos están conectados a un cable; un ejemplo de esto serían dos equipos conectados entre sí, por un mismo cable; esta topología tiene una desventaja grande y es que si, en algún momento, el cable principal falla, la red también dejaría de funcionar.
 
       .py-3.py-md-4(titulo="Topología estrella")
         .row.justify-content-center.align-items-center
           .col-md-5.mb-sm-4
-           figure
-            img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="Conexiones tipo estrella")
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="Conexiones tipo estrella")
           .col-md-5.mb-4.mb-md-0
-            p Es en donde los dispositivos están conectados a segmentos de cables que llegan hasta el concentrador, esta topología se encuentra en empresas y hogares normalmente, una ventaja de la topología estrella es que si uno de los dispositivos de la red falla, los demás dispositivos podrán funcionar normalmente.
+            p Es en donde los dispositivos están conectados a segmentos de cables que llegan hasta el concentrador, esta topología se encuentra en empresas y hogares normalmente, una ventaja de la topología estrella es que si uno de los dispositivos de la red falla, los demás dispositivos podrán funcionar normalmente, 
 
       .py-3.py-md-4(titulo="Topología malla")
         .row.justify-content-center.align-items-center
@@ -255,7 +229,7 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-16.svg', alt="Conexiones tipo anillo")
           .col-md-5.mb-4.mb-md-0
-            p Aquí los dispositivos están conectados a un cable en forma circular alrededor de un concentrador central (Kurose, 2017).
+            p Aquí los dispositivos están conectados a un cable en forma circular, alrededor de un concentrador central.
 
       .py-3.py-md-4(titulo="Topología híbrida")
         .row.justify-content-center.align-items-center
@@ -263,7 +237,7 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-17.svg', alt="Conexiones híbridas")
           .col-md-5.mb-4.mb-md-0
-            p En ella se pueden utilizar una o más topologías fusionadas para brindar una mejor seguridad y estabilidad en la organización; es importante decir que, en esta topología, si un solo equipo falla no afectará al resto de la red, generalmente se pueden hacer combinaciones entre la estrella-bus y estrella-anillo (Sánchez et al, 2020).
+            p En ella se pueden utilizar una o más topologías fusionadas para brindar una mejor seguridad y estabilidad en la organización; es importante decir que, en esta topología, si un solo equipo falla, no afectará al resto de la red; generalmente se pueden hacer combinaciones entre la estrella-bus y estrella-anillo.
 
     h3.mb-4(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
@@ -271,17 +245,14 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7
-        p.mb-4(data-aos="fade-right") Un puente de red, es un dispositivo de interconexión de redes, este opera en la capa 2 del modelo OSI, divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes que también opera en la capa de enlace de datos, este interconecta dos o más segmentos de red. Ahora bien, un 
-          em router 
-          | es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
+        p.mb-4(data-aos="fade-right") Un puente de red, es un dispositivo de interconexión de redes; este opera en la capa 2 del modelo OSI y divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes, que también opera en la capa de enlace de datos y este interconecta dos o más segmentos de red. Ahora bien, un router es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
       
         .fcac25.p-4.mb-5(data-aos="flip-up")
           p <b>¿Qué es TCP/IP?</b>
-          p.mb-0 Se relaciona a un protocolo para el funcionamiento de la red de internet, este funciona a nivel de transporte del modelo de referencia OSI, proporciona fiabilidad en los datos, el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos. #[br] Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia el modelo OSI, este se descompone en cinco niveles, cuatro niveles de 
-            em software 
-            | y un nivel de 
-            em hardware 
-            | (Kurose et at, 2017).
+          p.mb-0 Se relaciona con un protocolo para el funcionamiento de la red de Internet; este funciona a nivel de transporte del modelo de referencia OSI y proporciona fiabilidad en los datos; el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos.
+            br
+            br
+            |Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia, el modelo OSI, el cual se descompone en cinco niveles, cuatro niveles de #[em software] y un nivel de #[em hardware.]
     
       .col-md-5.mb-sm-4(data-aos="fade-left")
         figure
@@ -294,7 +265,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="Monitor con la palabra OSI")
       .col-md-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los sistemas son diferentes, este modelo está conformado por 7 capas, cada una de estas tienen sus propias funciones y así el conjunto alcanza su objetivo (Sánchez et al, 2020). A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
+        p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los estos son diferentes; este modelo está conformado por 7 capas, cada una de ellas tiene sus propias funciones y de esta manera, el conjunto alcanza su objetivo. A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
         
     .col-md-8.mx-auto.col-sm-9.mb-5(data-aos="zoom-in")
       ImagenInfografica.color-acento-contenido.mb-5
@@ -304,57 +275,81 @@
 
         .tarjeta.color-acento-contenido.p-3(x="30%" y="7%" numero="+")
           .h5.mb-2 Capa de aplicación
-          p.mb-0 • #[em HyperText Transfer Protocol] (HTTP)
-          p.mb-0 • #[em File Transfer Protocol] (FTP)
-          p.mb-0 • #[em Simple Mail Transfer Protocol] (SMTP)
-          p.mb-0 • #[em Secure Shell] (SSH)
-          p.mb-0 • #[em Simple Network Management Protocol] (SNMP)
-          p • #[em Domain Name System] (dignissim)
-          p Estos protocolos se utilizan más en cuando se ven videos o se envían mensajes en #[em software] de mensajería o correos electrónicos.
+          p.fst-italic  •  HyperText Transfer Protocol #[span.fst-normal (HTTP)]
+            br
+            | •  File Transfer Protocol #[span.fst-normal (FTP)]
+            br
+            | •  Simple Mail Transfer Protocol #[span.fst-normal (SMTP)]
+            br
+            | •  Secure Shell #[span.fst-normal (SSH)]
+            br
+            | •  Simple Network Management Protocol #[span.fst-normal (SNMP)]
+            br
+            | •  Domain Name System #[span.fst-normal (DNS)]
+            br
+            span.fst-normal Estos protocolos se utilizan más cuando se ven videos o se envían mensajes en software de mensajería o correos electrónicos. 
 
         .tarjeta.color-acento-contenido.p-3(x="26%" y="21%" numero="+")
           h5 Capa de presentación
-          p.mb-0 • #[em Apple Filing Protocol] (AFP)
-          p • #[em Network File System] (NFS)
+          p.mb-0 • #[em Apple Filing Protocol] #[span.fst-normal (AFP)]
+          p • #[em Network File System] #[span.fst-normal (NFS)]
           p Traduce el formato en el que se quiere ver, un ejemplo sería cuando se descarga un archivo, la extensión de este será manejada por esta capa.
 
         .tarjeta.color-acento-contenido.p-3(x="22%" y="36%" numero="+")
           h5 Capa de sesión
-          p.mb-0 • #[em Network Basic Input/Output System (NetBIOS)]
-          p.mb-0 • #[em Internet Storage Name Service (ISNS)]
-          p.mb-0 • #[em File Transfer Protocol (FTP)]
-          p • #[em Session Annoucement Protocol (SAP)]
-          p Lleva a cabo la comunicación, autoriza y gestiona el enlace entre los dispositivos.
+          p.fst-italic •  Network Basic Input/Output System #[span.fst-normal (NetBIOS)]
+            br
+            |•  Internet Storage Name Service #[span.fst-normal (ISNS)]
+            br
+            |•  File Transfer Protocol #[span.fst-normal (FTP)]
+            br
+            |•  Session Annoucement Protocol #[span.fst-normal (SAP)]
+            br
+            span.fst-normal Lleva a cabo la comunicación, autoriza y gestiona el enlace entre los dispositivos.
 
         .tarjeta.color-acento-contenido.p-3(x="17%" y="50%" numero="+")
           h5 Capa de transporte de datos
-          p.mb-0 • #[em User Datagram Protocol (UDP)]
-          p • #[em Transmission Control Protocol (TCP)]
-          p Hace la segmentación de lo que se va a compartir, fragmenta en varias partes, según la capacidad de la red.
+          p.fst-italic •  User Datagram Protocol #[span.fst-normal (UDP)]
+            br
+            |•  Transmission Control Protocol #[span.fst-normal (TCP)]
+            br
+            span.fst-normal Hace la segmentación de lo que se va a compartir, fragmenta en varias partes, según la capacidad de la red.
 
         .tarjeta.color-acento-contenido.p-3(x="13%" y="65%" numero="+")
           h5 Capa de red
-          p.mb-0 • #[em Interior Gateway Protocol (IGP)]
-          p.mb-0 • #[em Internet Protocol (IP)]
-          p.mb-0 • #[em Routing Information Protocol (RIP)]
-          p • #[em Internetwork Packet Exchange / Sequence Packet Exchange (IPX / SPX)]
-          p Calcula la mejor ruta para enviar los paquetes, se encarga de direccionar los datos transmitidos para que salgan y lleguen al destino.
+          p.fst-italic •  Interior Gateway Protocol #[span.fst-normal (IGP)]
+            br
+            |•  Internet Protocol #[span.fst-normal (IP)]
+            br
+            |•  Routing Information Protocol #[span.fst-normal (RIP)]
+            br
+            |•  Internetwork Packet Exchange / Sequence Packet Exchange #[span.fst-normal (IPX / SPX)]
+            br
+            span.fst-normal Calcula la mejor ruta para enviar los paquetes, se encarga de direccionar los datos transmitidos para que salgan y lleguen al destino.
 
         .tarjeta.color-acento-contenido.p-3(x="8%" y="80%" numero="+")
           h5 Capa de enlace de datos
-          p.mb-0 • #[em Ethernet]
-          p.mb-0 • #[em Fiber Distributed Data Interface (FDDI)]
-          p.mb-0 • #[em Address Resolution Protocol (ARP)]
-          p • #[em Point to Point Protocol (PPP)]
-          p Obtiene la información y la traduce en binario para así enviarla a la capa física.
+          p.fst-italic •  Ethernet
+            br
+            |•  Fiber Distributed Data Interface #[span.fst-normal (FDDI)]
+            br
+            |•  Address Resolution Protocol #[span.fst-normal (ARP)]
+            br
+            |•  Point to Point Protocol #[span.fst-normal (PPP)]
+            br
+            span.fst-normal Obtiene la información y la traduce en binario, para enviarla a la capa física.
 
         .tarjeta.color-acento-contenido.p-3(x="4%" y="94%" numero="+")
           h5 Capa física
-          p.mb-0 • #[em Digital Subscriber Line (DLS)]
-          p.mb-0 • #[em Integrated Services Digital Network (ISDN)]
-          p.mb-0 • #[em Bluetooth]
-          p • #[em Universal Serial Bus (USB)]
-          p Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
+          p.fst-italic •  Digital Subscriber Line #[span.fst-normal (DLS)]
+            br
+            |•  Integrated Services Digital Network #[span.fst-normal (ISDN)]
+            br
+            |•  Bluetooth
+            br
+            |•  Universal Serial Bus #[span.fst-normal (USB)]
+            br
+            span.fst-normal Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
 
     h3.mb-4(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
@@ -385,7 +380,7 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-23.svg', alt="HTTP")
           .col-md-5.mb-4.mb-md-0
-            p Es de los más importantes, ya que hace la transferencia de documentos de tipo “Hipertexto”. (Kurose et al, 2017).
+            p Es de los protocolos más importantes, porque hace la transferencia de documentos de tipo “hipertexto”.
 
 </template>
 

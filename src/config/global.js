@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Conceptos básicos de sistemas operativos',
     descripcionCurso:
-      'Es importante hoy en día conocer cómo se pueden generar escenarios de seguridad, acceso remoto, sitios web e integración de las organizaciones con los servicios de la nube; esto se logra habilitando servicios en un servidor que permita la creación y gestión de procesos que determinen tareas fundamentales como: envíos de correos, seguridad de la información, almacenamiento de <em>software</em> y demás componentes que hacen parte del sistema operativo.',
+      'Es importante hoy en día, conocer cómo se pueden generar escenarios de seguridad, acceso remoto, sitios <em>web</em> e integración de las organizaciones, con los servicios en la nube; esto se logra habilitando un servidor que permita la creación y gestión de procesos que determinen tareas fundamentales como: envíos de correos, seguridad de la información, almacenamiento de <em>software</em> y demás componentes que hacen parte del sistema operativo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -120,19 +120,19 @@ export default {
   },
   complementario: [
     {
-      tema: 'Sistemas Operativos',
-      referencia: 'Silva M. (2015). <em>Sistemas Operativos</em>.',
+      tema: 'Introducción a los sistemas operativos de red',
+      referencia: 'Silva, M. (2015). <em>Sistemas Operativos.</em>',
       tipo: 'Libro',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_alfaomega18624',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_alfaomega18624 ',
     },
     {
-      tema: 'Redes de Computadoras',
+      tema: 'Introducción a los sistemas operativos de red',
       referencia:
         'Tanenbaum, A. S., Romero Elizondo, A. V. & Wetherall, D. J. (2012). <em>Redes de Computadoras</em>.',
       tipo: 'Libro',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085 ',
     },
   ],
   glosario: [
@@ -201,7 +201,7 @@ export default {
     },
     {
       referencia:
-        'Kurose, J. (2017). <em>Redes De Computadoras: Un Enfoque Descendente</em>. Séptima Edición. ed. Slovakia, Neografía: Pearson Educación.',
+        'Kurose, J. (2017). <em>Redes De Computadoras: Un Enfoque Descendente.</em> Séptima Edición. Pearson Educación. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005090',
     },
@@ -213,19 +213,19 @@ export default {
     },
     {
       referencia:
-        'Sánchez, M, Barchino R; & Martínez, J. (2020) <em>Redes de Computadores</em>. Universidad de Alcalá, Servicio de Publicaciones.',
+        'Sánchez, M., Barchino, R. & Martínez, J. (2020) <em>Redes de Computadores.</em> Universidad de Alcalá, Servicio de Publicaciones. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB131606',
     },
     {
       referencia:
-        'Serna, M, y Allende, S. (2020). <em>Sistemas Operativos: Linux</em>. Jorge Sarmiento Editor – Universitas.',
+        'Serna, M. y Allende, S. (2020). <em>Sistemas Operativos: Linux.</em> Jorge Sarmiento Editor – Universitas.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB175148',
     },
     {
       referencia:
-        'Tanenbaum, A, Vidal, A, & Wetherall, D. (2022). <em>Redes De Computadoras</em>. 5a. Edición. Ed. México: Pearson Educación.',
+        'Tanenbaum, A., Vidal, A. & Wetherall, D. (2022). <em>Redes De Computadoras.</em> 5a. Edición. Pearson Educación. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0005085',
     },

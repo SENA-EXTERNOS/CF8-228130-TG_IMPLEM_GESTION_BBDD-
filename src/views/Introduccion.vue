@@ -17,9 +17,10 @@
         .col-lg-8
           .contenedor-dashed.p-4
             .bloque-texto-a__texto.p-4
-              p.mb-0 Bienvenidos al desarrollo de este componente formativo, a través del cual conocerán sobre la historia de los sistemas operativos de red, licenciamientos y sus tipos, así como conceptos de 
-                em networking
-                |; antes de empezar, se sugiere visualizar el siguiente video para identificar el contexto de aprendizaje.
+              p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde conocerá sobre la historia de los sistemas operativos de red, licenciamientos y sus tipos, así como también conceptos de #[em networking.] 
+                br
+                br
+                |En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
     
     figure.mb-5
       .video
