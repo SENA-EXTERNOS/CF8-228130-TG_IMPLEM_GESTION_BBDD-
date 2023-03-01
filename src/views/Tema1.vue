@@ -58,7 +58,7 @@
             h4 Windows NT
             p •  Es un sistema operativo que provee máxima confiabilidad, rendimiento y seguridad.
               br
-              |• Tiene mayores requerimientos de hardware frente a Windows 95.
+              |• Tiene mayores requerimientos de #[em hardware] frente a Windows 95.
               br
               | • Su interfaz gráfica es amigable, similar a la de Windows 95.
 
@@ -68,12 +68,12 @@
 
           .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
             h4 LINUX
-            p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos Unix y es por eso que Linux tiene mayores capacidades para navegar.
+            p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos UNIX y es por eso que Linux tiene mayores capacidades para navegar.
       
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Puede decirse que tanto Unix, como Linux son sistemas operativos idénticos. (Cura, 2020)
+          p.mb-0 Puede decirse que tanto UNIX, como Linux son sistemas operativos idénticos. (Cura, 2020)
 
     Separador
 
@@ -108,7 +108,7 @@
           .col-xl-8
             p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos 
               em software 
-              | que derivan proyectos anteriores como es el caso de  Unix.
+              | que derivan proyectos anteriores como es el caso de  UNIX.
 
       .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre").borde
         .row.m-0.justify-content-center.align-items-center
@@ -138,7 +138,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Licencia GPL')
           .col-xl-6
-            p Limita la distribución del #[em software] e impide que pueda ser integrado. Además, se basa en la legislación internación de  Copyright.
+            p Limita la distribución del #[em software] e impide que pueda ser integrado. Además, se basa en la legislación internacional de Copyright.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -245,7 +245,7 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7
-        p.mb-4(data-aos="fade-right") Un puente de red, es un dispositivo de interconexión de redes; este opera en la capa 2 del modelo OSI y divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes, que también opera en la capa de enlace de datos y este interconecta dos o más segmentos de red. Ahora bien, un router es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
+        p.mb-4(data-aos="fade-right") Un puente de red, es un dispositivo de interconexión de redes; este opera en la capa 2 del modelo OSI y divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes, que también opera en la capa de enlace de datos y este interconecta dos o más segmentos de red. Ahora bien, un #[em router] es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
       
         .fcac25.p-4.mb-5(data-aos="flip-up")
           p <b>¿Qué es TCP/IP?</b>
@@ -258,14 +258,14 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-18.png', alt="Autopista de datos")
 
-    p.mb-5(data-aos="fade-right") ¿Qué es un protocolo? Puede ser relativamente simple o complejo, es un conjunto de reglas que permiten la conexión y comunicación de dos o más entidades de un sistema.
+    p.mb-5(data-aos="fade-right") ¿Qué es un protocolo? Puede ser relativamente simple o complejo, y se refiere a un conjunto de reglas que permiten la conexión y comunicación entre dos o más entidades de un sistema.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="Monitor con la palabra OSI")
       .col-md-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si los estos son diferentes; este modelo está conformado por 7 capas, cada una de ellas tiene sus propias funciones y de esta manera, el conjunto alcanza su objetivo. A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
+        p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si estos son diferentes; este modelo está conformado por 7 capas, cada una de ellas tiene sus propias funciones y de esta manera, el conjunto alcanza su objetivo. A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
         
     .col-md-8.mx-auto.col-sm-9.mb-5(data-aos="zoom-in")
       ImagenInfografica.color-acento-contenido.mb-5
@@ -275,7 +275,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="30%" y="7%" numero="+")
           .h5.mb-2 Capa de aplicación
-          p.fst-italic  •  HyperText Transfer Protocol #[span.fst-normal (HTTP)]
+          p  •  HyperText Transfer Protocol #[span.fst-normal (HTTP)]
             br
             | •  File Transfer Protocol #[span.fst-normal (FTP)]
             br
@@ -291,13 +291,13 @@
 
         .tarjeta.color-acento-contenido.p-3(x="26%" y="21%" numero="+")
           h5 Capa de presentación
-          p.mb-0 • #[em Apple Filing Protocol] #[span.fst-normal (AFP)]
-          p • #[em Network File System] #[span.fst-normal (NFS)]
+          p.mb-0 •  Apple Filing Protocol #[span.fst-normal (AFP)]
+          p •  Network File System #[span.fst-normal (NFS)]
           p Traduce el formato en el que se quiere ver, un ejemplo sería cuando se descarga un archivo, la extensión de este será manejada por esta capa.
 
         .tarjeta.color-acento-contenido.p-3(x="22%" y="36%" numero="+")
           h5 Capa de sesión
-          p.fst-italic •  Network Basic Input/Output System #[span.fst-normal (NetBIOS)]
+          p •  Network Basic Input/Output System #[span.fst-normal (NetBIOS)]
             br
             |•  Internet Storage Name Service #[span.fst-normal (ISNS)]
             br
@@ -309,7 +309,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="17%" y="50%" numero="+")
           h5 Capa de transporte de datos
-          p.fst-italic •  User Datagram Protocol #[span.fst-normal (UDP)]
+          p •  User Datagram Protocol #[span.fst-normal (UDP)]
             br
             |•  Transmission Control Protocol #[span.fst-normal (TCP)]
             br
@@ -317,7 +317,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="13%" y="65%" numero="+")
           h5 Capa de red
-          p.fst-italic •  Interior Gateway Protocol #[span.fst-normal (IGP)]
+          p •  Interior Gateway Protocol #[span.fst-normal (IGP)]
             br
             |•  Internet Protocol #[span.fst-normal (IP)]
             br
@@ -329,7 +329,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="8%" y="80%" numero="+")
           h5 Capa de enlace de datos
-          p.fst-italic •  Ethernet
+          p •  Ethernet
             br
             |•  Fiber Distributed Data Interface #[span.fst-normal (FDDI)]
             br
@@ -341,7 +341,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="4%" y="94%" numero="+")
           h5 Capa física
-          p.fst-italic •  Digital Subscriber Line #[span.fst-normal (DLS)]
+          p •  Digital Subscriber Line #[span.fst-normal (DLS)]
             br
             |•  Integrated Services Digital Network #[span.fst-normal (ISDN)]
             br

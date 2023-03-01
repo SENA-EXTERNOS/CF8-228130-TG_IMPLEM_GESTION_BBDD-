@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Conceptos básicos de sistemas operativos',
     descripcionCurso:
-      'Es importante hoy en día, conocer cómo se pueden generar escenarios de seguridad, acceso remoto, sitios <em>web</em> e integración de las organizaciones, con los servicios en la nube; esto se logra habilitando un servidor que permita la creación y gestión de procesos que determinen tareas fundamentales como: envíos de correos, seguridad de la información, almacenamiento de <em>software</em> y demás componentes que hacen parte del sistema operativo.',
+      'Es importante hoy en día, conocer cómo se pueden generar escenarios de seguridad, acceso remoto, sitios web e integración de las organizaciones, con los servicios en la nube; esto se logra habilitando un servidor que permita la creación y gestión de procesos que determinen tareas fundamentales como: envíos de correos, seguridad de la información, almacenamiento de <em>software</em> y demás componentes que hacen parte del sistema operativo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -49,7 +49,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Conceptos básicos de redes y <em>networking</em>',
+            titulo: 'Conceptos básicos de redes y networking',
             hash: 't_1_2',
           },
         ],
@@ -61,21 +61,6 @@ export default {
         numero: '2',
         titulo: 'Instalación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Tipos de instalaciones de sistemas operativos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo:
-              'Plan de instalación: dependencias, configuración y problemas de instalación',
-            hash: 't_2_2',
-          },
-        ],
       },
     ],
     subMenu: [

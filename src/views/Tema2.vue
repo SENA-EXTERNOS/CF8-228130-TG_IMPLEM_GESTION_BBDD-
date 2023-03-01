@@ -134,7 +134,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-6(data-aos="fade-right")
         .rcacid.p-4.mb-3
-          p.mb-0 En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos, para administrar el equipo siempre se propone un superusuario que tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con limitaciones o sin limitaciones.
+          p.mb-0 En la instalación se podrá establecer un usuario administrador o superusuario, se pueden dar diferentes alternativas en la seguridad de los equipos informáticos; para administrar el equipo, siempre se propone un superusuario quien tendrá todos los privilegios y derechos para instalar, modificar y eliminar información en la cuenta de usuario. También podrá crear nuevos usuarios con, o sin limitaciones.
         .cajon.color-secundario.cs.p-4.cs25.mb-4
           p.mb-0 En el caso de Linux, el usuario “superusuario” se llama “root”; para el sistema operativo Windows, se llama “administrador” según el idioma en que sea instalado el sistema operativo.
       .col-md-6(data-aos="fade-left")
@@ -147,22 +147,16 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-8.svg', alt="Monitor")
       .col-md-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 Para crear un usuario en 
-          em Windows Server 
-          | se debe iniciar sesión en el servidor como administrador, para abrir la configuración de 
-          em Windows, 
-          | se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra #[b "Configuración"], luego se debe hacer clic en #[b "Cuentas"], después, se va a otros usuarios, haciendo  clic en #[b "Agregar otra persona a este equipo"] y desde la barra de navegación se hace clic en #[b "Usuarios".]
-        br
-        p.mb-0 Se debe hacer clic en "Acción" y luego "Usuario nuevo" desde la barra de menú:
+        p.mb-0 Para crear un usuario en Windows Server, se debe iniciar sesión en el servidor como administrador; para abrir la configuración de Windows, se arrastra el mouse hasta la barra de búsqueda y se escribe la palabra Configuración; luego se debe hacer clic en Cuentas, y luego se va a otros usuarios, haciendo clic en Agregar otra persona a este equipo y, desde la barra de navegación, se hace clic en Usuarios.
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        figure.borde-lineas(data-aos="zoom-in")
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img2-7.png', alt='Usuarios')
     p.mb-5(data-aos='fade-right') Se debe hacer clic en #[b Acción] y luego #[b Usuario] nuevo desde la barra de menú:
     .row.justify-content-center.mb-5
       .col-lg-6
-        figure.borde-lineas(data-aos="zoom-in")
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img2-9.png', alt="Nuevo usuario")
 
     .row.justify-content-center.mb-5
@@ -171,10 +165,8 @@
           p.mb-0 Desde ahí, debe introducirse el nombre del usuario, nombres completos, descripción del usuario y la contraseña de la cuenta.
 
     p.mb-4.fw-bold(data-aos="fade-right")
-      i.fas.fa-check.cac.me-3
-      | Configuración del servidor NTP 
-      em Windows Server 
-      | 2016
+      i.fas.fa-check.me-3(style="color: #ffb30b")
+      span Configuración del servidor NTP Windows Server 2016
 
     p.mb-5(data-aos="fade-left") Es de gran importancia tener la sincronización del tiempo, tanto para los equipos cliente, como para el servidor, porque algún error en los tiempos, puede afectar las tareas administrativas.
 
@@ -202,9 +194,8 @@
             | Actualizaciones y sincronización de los equipos.
 
     p.mb-4.fw-bold(data-aos="fade-right")
-      i.fas.fa-check.cac.me-3
-      | Configuración desde el 
-      em PowerShell
+      i.fas.fa-check.cac.me-3(style="color: #ffb30b")
+      span Configuración desde el PowerShell
     p.mb-5(data-aos="fade-right") Para la configuración desde el PowerShell, se realizan los siguientes pasos:
 
     .tarjeta.tarjeta--gris.p-4.mb-5
