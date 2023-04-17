@@ -23,13 +23,13 @@
       p.mb-5(data-aos="fade-right") La principal función de un sistema operativo de red es brindar una forma de transmisión de archivos de un equipo a otro, la Internet brinda un mecanismo para hacer transferencias a través del FTP (#[em File Transfer Protocol]).
 
       .row.justify-content-center.mb-5
-        .col-lg-9(data-aos="flip-up")
+        .col-lg-10(data-aos="flip-up")
           .cajon.color-acento-contenido.p-4
             p.mb-0 El primer sistema operativo de red estaba enfocado hacia equipos con un procesador motorola 6800; luego, aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que, a pesar que era arcaico, estaba dispuesto a relacionarse con otras tecnologías y también brindaba apoyo al protocolo de AppleTalk. (Cura, 2020)
       
       .row.justify-content-center.mb-5
-        .col-lg-9(data-aos="zoom-in")
-          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .col-lg-10(data-aos="zoom-in")
+          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
             .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1-2.png')})`}"
             )
@@ -82,15 +82,18 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.fcac25
+        .bloque-texto-a.color-secundario.p-4.p-md-3.fcac25
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas(data-aos="zoom-in")
-              p.mb-0  #[b Las licencias] 
-                  | son básicamente, convenios o contratos en donde el usuario acepta las condiciones y términos de la empresa desarrolladora para hacer uso del 
-                  em software, 
-                  | los términos serán más o menos restrictivos, si es libre o propietario. Por tanto, las licencias son permisos para poder usar algún tipo de 
-                  em software 
-                  | y pueden tener limitación de tiempo y variar según la ubicación geográfica donde se utiliza.
+            .col-lg-8(data-aos="zoom-in")
+              .contenedor-dashed.p-3
+                .bloque-texto-a__texto.p-4
+                  p.mb-0  #[b Las licencias] 
+                      | son básicamente, convenios o contratos en donde el usuario acepta las condiciones y términos de la empresa desarrolladora para hacer uso del 
+                      em software, 
+                      | los términos serán más o menos restrictivos, si es libre o propietario. Por tanto, las licencias son permisos para poder usar algún tipo de 
+                      em software 
+                      | y pueden tener limitación de tiempo y variar según la ubicación geográfica donde se utiliza.
+                
             .col-lg-4.mb-lg-0.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/tema1/img1-4.png', alt="Licencias")
@@ -142,7 +145,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-a.bloque-texto-t1.p-4.p-md-5(data-aos="zoom-in")
+        .bloque-texto-a.bloque-texto-t1.p-4.p-md-4(data-aos="zoom-in")
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -151,9 +154,8 @@
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
                   p Un tema muy interesante es el referente a los licenciamientos de los servidores; desde Windows Server 2016, cambia la forma como se licencian los sistemas operativos en temas de servidores.
-                    br
-                    br
-                    |El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de Windows Server, a un nuevo modelo donde, por cada núcleo de la CPU se tiene una licencia Core de Windows Server; esto se debe a que las CPU actuales cuentan con varios núcleos o Cores, lo que se convierte en una CPU y también se puede encontrar CPU en forma de núcleos.
+
+                  p.mt-3 El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de Windows Server, a un nuevo modelo donde, por cada núcleo de la CPU se tiene una licencia Core de Windows Server; esto se debe a que las CPU actuales cuentan con varios núcleos o Cores, lo que se convierte en una CPU y también se puede encontrar CPU en forma de núcleos.
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -187,7 +189,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4(data-aos="zoom-in")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1-12.png')})`}"
           )

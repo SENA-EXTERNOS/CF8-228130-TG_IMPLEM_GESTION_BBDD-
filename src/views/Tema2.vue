@@ -15,10 +15,13 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/7g2Eo4L9wgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fcac25
+    .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5.fcac25(data-aos="zoom-in")
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas(data-aos="zoom-in")
-            p.mb-0 Existen dos formas para hacer la instalación del sistema operativo; la primera de ellas, se realiza utilizando una máquina virtual, y la segunda, haciendo la instalación desde cero en la máquina. Para poder instalar Windows Server hay que tener ya “booteada” la memoria USB, que estará lista para hacer la instalación. Luego, se procede a iniciar la máquina, ingresando al BIOS presionando la tecla F2, o alguna tecla diferente, dependiendo del modelo y la marca del equipo. Una vez ingresado al BIOS, se configura en el BOOT, el inicio primario por USB, para que al iniciar la máquina se reconozca como dispositivo primario la memoria USB para su arranque; luego, se reinicia la máquina con la USB conectada y se espera hasta que comience la instalación.
+        .col-lg-8
+          .contenedor-dashed.p-3
+            .bloque-texto-a__texto.p-4
+              p.mb-0 Existen dos formas para hacer la instalación del sistema operativo; la primera de ellas, se realiza utilizando una máquina virtual, y la segunda, haciendo la instalación desde cero en la máquina. Para poder instalar Windows Server hay que tener ya “booteada” la memoria USB, que estará lista para hacer la instalación. Luego, se procede a iniciar la máquina, ingresando al BIOS presionando la tecla F2, o alguna tecla diferente, dependiendo del modelo y la marca del equipo. Una vez ingresado al BIOS, se configura en el BOOT, el inicio primario por USB, para que al iniciar la máquina se reconozca como dispositivo primario la memoria USB para su arranque; luego, se reinicia la máquina con la USB conectada y se espera hasta que comience la instalación.
+          
         .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema2/img2-1.svg', alt="Windows Server")
@@ -138,7 +141,7 @@
         .cajon.color-secundario.cs.p-4.cs25.mb-4
           p.mb-0 En el caso de Linux, el usuario “superusuario” se llama “root”; para el sistema operativo Windows, se llama “administrador” según el idioma en que sea instalado el sistema operativo.
       .col-md-6(data-aos="fade-left")
-        figure.borde-lineas
+        figure
           img(src='@/assets/curso/temas/tema1/c1.png', alt='Usuarios')
 
 
