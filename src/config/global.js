@@ -159,7 +159,7 @@ export default {
     {
       termino: 'NFS',
       significado:
-        '<em>Network File System</em>, o NFS, es un protocolo de nivel de aplicación, según el Modelo OSI. Es utilizado para sistemas de archivos distribuido en un entorno de red de computadoras de área local.',
+        '<em>Network File System</em>, o NFS, es un protocolo de nivel de aplicación, según el Modelo OSI. Es utilizado para sistemas de archivos distribuidos en un entorno de red de computadoras de área local.',
     },
     {
       termino: 'OSI',

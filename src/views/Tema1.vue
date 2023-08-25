@@ -25,7 +25,7 @@
       .row.justify-content-center.mb-5
         .col-lg-10(data-aos="flip-up")
           .cajon.color-acento-contenido.p-4
-            p.mb-0 El primer sistema operativo de red estaba enfocado hacia equipos con un procesador motorola 6800; luego, aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que, a pesar que era arcaico, estaba dispuesto a relacionarse con otras tecnologías y también brindaba apoyo al protocolo de AppleTalk. (Cura, 2020)
+            p.mb-0 El primer sistema operativo de red estaba enfocado hacia equipos con un procesador motorola 6800; luego, aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que, a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías y también brindaba apoyo al protocolo de AppleTalk. (Cura, 2020)
       
       .row.justify-content-center.mb-5
         .col-lg-10(data-aos="zoom-in")
@@ -68,7 +68,7 @@
 
           .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
             h4 LINUX
-            p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador ya que internet creó dentro en entornos UNIX y es por eso que Linux tiene mayores capacidades para navegar.
+            p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador, ya que internet creó dentro en entornos UNIX y es por eso que Linux tiene mayores capacidades para navegar.
       
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -183,7 +183,7 @@
       .col-md-7(data-aos="fade-left")
         p.mb-4 Otro concepto que debe tenerse en cuenta es la Intranet, que es básicamente, una red interna con un alcance dentro de una organización o entidad, este tipo de red nos garantiza un mejor control de la seguridad, estabilidad y <em>performance</em> en la gestión de la información.
 
-        p.mb-4 Entre los medios de conexión que permiten intercambiar datos se encuentra el cable de red, existe el cable de par trenzado que es el medio de transmisión más utilizado, el cual, está formado por dos hebras aisladas de hilo de cobre o aleación trenzado entre sí. Estos cables pueden transportar datos y señales a distancias de 100 metros y son llamados cables UTP, también es el cable en una LAN algo parecido se encuentra con los cables STP, que utilizan una funda de cobre trenzado, que es más protector de interferencias. El cableado par trenzado generalmente utiliza conectores RJ-45 (<em>Registered Jack</em>) para la conexión a un dispositivo.
+        p.mb-4 Entre los medios de conexión que permiten intercambiar datos se encuentra el cable de red, existe el cable de par trenzado, que es el medio de transmisión más utilizado, el cual, está formado por dos hebras aisladas de hilo de cobre o aleación trenzado entre sí. Estos cables pueden transportar datos y señales a distancias de 100 metros y son llamados cables UTP, también es el cable en una LAN algo parecido se encuentra con los cables STP, que utilizan una funda de cobre trenzado, que es más protector de interferencias. El cableado par trenzado generalmente utiliza conectores RJ-45 (<em>Registered Jack</em>) para la conexión a un dispositivo.
 
         p.mb-0 Un cable muy común es el Coaxial que está formado en su interior por cobre, rodeado por un aislamiento y una capa de metal trenzado y es una buena opción cuando se transmiten señales a larga distancia. Este cable necesita tener terminaciones en cada extremo y su cobertura es aproximada a los 185 metros.
 
@@ -225,7 +225,7 @@
           .col-md-5.mb-4.mb-md-0
             p Aquí los dispositivos de la red están conectados entre sí mediante un cable, esta topología brinda mayor estabilidad en la conexión y transferencia de datos, una de sus ventajas es que permite hacer respaldo de la información, ya que proporciona múltiples rutas, esta requiere más cable lo que hace su costo de instalación más elevado.
 
-      .py-3.py-md-4(titulo="Topología anillo")
+      .py-3.py-md-4(titulo="Topología anilló")
         .row.justify-content-center.align-items-center
           .col-md-5.mb-sm-4
            figure
