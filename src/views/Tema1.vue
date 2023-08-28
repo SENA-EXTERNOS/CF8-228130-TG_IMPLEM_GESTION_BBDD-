@@ -225,7 +225,7 @@
           .col-md-5.mb-4.mb-md-0
             p Aquí los dispositivos de la red están conectados entre sí mediante un cable, esta topología brinda mayor estabilidad en la conexión y transferencia de datos, una de sus ventajas es que permite hacer respaldo de la información, ya que proporciona múltiples rutas, esta requiere más cable lo que hace su costo de instalación más elevado.
 
-      .py-3.py-md-4(titulo="Topología anilló")
+      .py-3.py-md-4(titulo="Topología anillo")
         .row.justify-content-center.align-items-center
           .col-md-5.mb-sm-4
            figure
