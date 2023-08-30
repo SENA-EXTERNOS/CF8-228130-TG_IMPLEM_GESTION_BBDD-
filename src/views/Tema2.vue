@@ -95,7 +95,7 @@
           li
             .lista-ol--cuadro__vineta
               span.cst 4
-            | Sutiliza para hacer redimensiones de particiones; esto es muy útil, ya que permite aministrar la partición, sin perder información en esta.
+            | Se utiliza para hacer redimensiones de particiones; esto es muy útil, ya que permite aministrar la partición, sin perder información en esta.
 
 
     p.mb-5 Dentro de los tipos de instalaciones se pueden encontrar los siguientes:
