@@ -26,7 +26,7 @@
         .col-lg-10(data-aos="flip-up")
           .cajon.color-acento-contenido.p-4
             p.mb-0 El primer sistema operativo de red estaba enfocado hacia equipos con un procesador motorola 6800; luego, aparecieron los procesadores intel como Novell Netware; el éxito de este #[em software] de red es que, a pesar de que era arcaico, estaba dispuesto a relacionarse con otras tecnologías y también brindaba apoyo al protocolo de AppleTalk. (Cura, 2020)
-      
+
       .row.justify-content-center.mb-5
         .col-lg-10(data-aos="zoom-in")
           .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
@@ -45,7 +45,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img1-3.png', alt='Características técnicas de la familia Windows.')
-              
+
           .tarjeta.color-secundario.p-3(x="12%" y="16%" numero="+")
             h4 Windows 3.11
             p •  Es de 16 Bit.
@@ -69,7 +69,7 @@
           .tarjeta.color-secundario.p-3(x="88%" y="61%" numero="+")
             h4 LINUX
             p Dentro de las características principales de este sistema destaca la capacidad multitarea, que hace posible la ejecución de varios programas a la vez; también el sistema multiusuario en el que varios usuarios pueden acceder a las aplicaciones y recursos al mismo tiempo, Linux es flexible para poder conectarse a cualquier ordenador, ya que internet creó dentro en entornos UNIX y es por eso que Linux tiene mayores capacidades para navegar.
-      
+
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4
@@ -87,13 +87,13 @@
             .col-lg-8(data-aos="zoom-in")
               .contenedor-dashed.p-3
                 .bloque-texto-a__texto.p-4
-                  p.mb-0  #[b Las licencias] 
-                      | son básicamente, convenios o contratos en donde el usuario acepta las condiciones y términos de la empresa desarrolladora para hacer uso del 
-                      em software, 
-                      | los términos serán más o menos restrictivos, si es libre o propietario. Por tanto, las licencias son permisos para poder usar algún tipo de 
-                      em software 
+                  p.mb-0  #[b Las licencias]
+                      | son básicamente, convenios o contratos en donde el usuario acepta las condiciones y términos de la empresa desarrolladora para hacer uso del
+                      em software,
+                      | los términos serán más o menos restrictivos, si es libre o propietario. Por tanto, las licencias son permisos para poder usar algún tipo de
+                      em software
                       | y pueden tener limitación de tiempo y variar según la ubicación geográfica donde se utiliza.
-                
+
             .col-lg-4.mb-lg-0.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/tema1/img1-4.png', alt="Licencias")
@@ -104,19 +104,19 @@
       .tarjeta.tarjeta--border.color-adicional-1.p-4(titulo="Código abierto").borde
         .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
-            h4 
+            h4
               span.text-white CA
             figure
               img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='Caja abierta')
           .col-xl-8
-            p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos 
-              em software 
+            p Permiten que quien lo adquiera pueda modificar el código fuente y pueda distribuir libremente sin pagar derechos de autor, hoy en día existen muchos de estos
+              em software
               | que derivan proyectos anteriores como es el caso de  UNIX.
 
       .tarjeta.color-adicional-1.p-4(titulo="<em>Software</em> libre").borde
         .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
-            h4 
+            h4
               span.text-white SL
             figure
               img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='Pantalla con la palabra API')
@@ -136,7 +136,7 @@
       .tarjeta.color-adicional-1.p-4(titulo="GPL <em>General Public License</em>").borde
         .row.m-0.justify-content-center.align-items-center
           .col-xl-2.mb-5
-            h4 
+            h4
               span.text-white GPL
             figure
               img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Licencia GPL')
@@ -155,7 +155,7 @@
                 .bloque-texto-a__texto.p-4
                   p Un tema muy interesante es el referente a los licenciamientos de los servidores; desde Windows Server 2016, cambia la forma como se licencian los sistemas operativos en temas de servidores.
 
-                  p.mt-3 El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de Windows Server, a un nuevo modelo donde, por cada núcleo de la CPU se tiene una licencia Core de Windows Server; esto se debe a que las CPU actuales cuentan con varios núcleos o Cores, lo que se convierte en una CPU y también se puede encontrar CPU en forma de núcleos.
+                  p.mt-3 El modelo de licenciamiento anterior era un servidor o CPU, que necesitaba de una licencia de Windows Server, a un nuevo modelo donde, por cada núcleo de la CPU se tiene una licencia Core de Windows Server; esto se debe a que las CPUs actuales cuentan con varios núcleos o Cores, lo que se convierte en una CPU y también se puede encontrar CPUs en forma de núcleos.
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -215,7 +215,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="Conexiones tipo estrella")
           .col-md-5.mb-4.mb-md-0
-            p Es en donde los dispositivos están conectados a segmentos de cables que llegan hasta el concentrador, esta topología se encuentra en empresas y hogares normalmente, una ventaja de la topología estrella es que si uno de los dispositivos de la red falla, los demás dispositivos podrán funcionar normalmente, 
+            p Es en donde los dispositivos están conectados a segmentos de cables que llegan hasta el concentrador, esta topología se encuentra en empresas y hogares normalmente, una ventaja de la topología estrella es que si uno de los dispositivos de la red falla, los demás dispositivos podrán funcionar normalmente,
 
       .py-3.py-md-4(titulo="Topología malla")
         .row.justify-content-center.align-items-center
@@ -248,14 +248,14 @@
     .row.justify-content-center.align-items-center
       .col-md-7
         p.mb-4(data-aos="fade-right") Un puente de red, es un dispositivo de interconexión de redes; este opera en la capa 2 del modelo OSI y divide una red en segmentos. Por su parte, el #[em switch] es un dispositivo electrónico de interconexión de redes, que también opera en la capa de enlace de datos y este interconecta dos o más segmentos de red. Ahora bien, un #[em router] es un dispositivo electrónico que encamina e interconecta las redes de los equipos que operan en la capa 3.
-      
+
         .fcac25.p-4.mb-5(data-aos="flip-up")
           p <b>¿Qué es TCP/IP?</b>
           p.mb-0 Se relaciona con un protocolo para el funcionamiento de la red de Internet; este funciona a nivel de transporte del modelo de referencia OSI y proporciona fiabilidad en los datos; el protocolo IP, se encuentra en el nivel de red OSI, que encamina los datos hacia otros equipos.
             br
             br
             |Estos protocolos se pueden descomponer en niveles de TCP/IP, usando siempre como referencia, el modelo OSI, el cual se descompone en cinco niveles, cuatro niveles de #[em software] y un nivel de #[em hardware.]
-    
+
       .col-md-5.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img1-18.png', alt="Autopista de datos")
@@ -268,7 +268,7 @@
           img(src='@/assets/curso/temas/tema1/img1-19.svg', alt="Monitor con la palabra OSI")
       .col-md-11.col-sm-10(data-aos="fade-left")
         p.mb-0 El modelo OSI, básicamente es un estándar para interconectar sistemas sin importar si estos son diferentes; este modelo está conformado por 7 capas, cada una de ellas tiene sus propias funciones y de esta manera, el conjunto alcanza su objetivo. A continuación, se detallan algunos de los protocolos en las respectivas capas de este modelo:
-        
+
     .col-md-8.mx-auto.col-sm-9.mb-5(data-aos="zoom-in")
       ImagenInfografica.color-acento-contenido.mb-5
         template(v-slot:imagen)
@@ -289,7 +289,7 @@
             br
             | •  Domain Name System #[span.fst-normal (DNS)]
             br
-            span.fst-normal Estos protocolos se utilizan más cuando se ven videos o se envían mensajes en software de mensajería o correos electrónicos. 
+            span.fst-normal Estos protocolos se utilizan más cuando se ven videos o se envían mensajes en software de mensajería o correos electrónicos.
 
         .tarjeta.color-acento-contenido.p-3(x="26%" y="21%" numero="+")
           h5 Capa de presentación
@@ -351,7 +351,7 @@
             br
             |•  Universal Serial Bus #[span.fst-normal (USB)]
             br
-            span.fst-normal Hace el envío en binario a los medios de la red. Se encarga de la conexión física de una red.
+            span.fst-normal Hace el envío de datos en binario a los medios de la red. Se encarga de la conexión física de una red.
 
     h3.mb-4(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
@@ -373,8 +373,8 @@
            figure
             img(src='@/assets/curso/temas/tema1/img1-22.svg', alt="DHCP")
           .col-md-5.mb-4.mb-md-0
-            p Protocolo de configuración dinámica de 
-              em host, 
+            p Protocolo de configuración dinámica de
+              em host,
               | permite que los dispositivos tengan una configuración de red de una manera automática, es más fácil de administrar.
       .py-3.py-md-4(titulo="HTTP")
         .row.justify-content-center.align-items-center
